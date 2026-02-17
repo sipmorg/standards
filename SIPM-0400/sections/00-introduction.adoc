@@ -1,0 +1,30 @@
+[[intro]]
+== Introduction
+
+The establishment of clinical evidence is fundamental to the responsible use of
+phytomedicine in healthcare. While traditional use provides valuable historical
+context, modern evidence-based practice requires rigorous clinical research to
+establish safety and efficacy.
+
+This document provides a framework for the generation, evaluation, and reporting
+of clinical evidence for phytomedicine products. It recognizes the unique
+challenges of clinical research in phytomedicine, including:
+
+* Complexity of multi-component botanical preparations
+* Variability in product composition between studies
+* Integration of traditional knowledge with modern research methods
+* Ethical considerations in studying traditional remedies
+
+The standard addresses the complete evidence generation process:
+
+* Classification of evidence types and their relative weight
+* Study design considerations specific to phytomedicine
+* Quality assessment of clinical studies
+* Transparent reporting of methods and results
+
+This document is intended to support:
+
+* Researchers designing clinical studies of phytomedicines
+* Regulatory bodies evaluating marketing authorization applications
+* Healthcare professionals assessing evidence for clinical practice
+* Manufacturers developing evidence-based products

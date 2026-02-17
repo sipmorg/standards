@@ -1,0 +1,26 @@
+[[scope]]
+== Scope
+
+This document specifies requirements for the agricultural cultivation and
+primary processing of medicinal plants used in phytomedicine.
+
+It is applicable to:
+
+* Cultivation of medicinal plants under controlled agricultural conditions
+* Primary processing of plant materials after harvest
+* Documentation and traceability throughout the production cycle
+* Quality management systems for medicinal plant production
+
+This document does not cover:
+
+* Wild collection practices (addressed in SIPM-0201)
+* Processing of plant materials into extracts or finished products
+* Specific analytical methods (addressed in SIPM-0300 series)
+* Fungal cultivation (addressed in SIPM-0202)
+
+The requirements in this document are intended to be used by:
+
+* Cultivators and farmers of medicinal plants
+* Primary processors of medicinal plant materials
+* Quality assurance personnel
+* Regulatory bodies and certification organizations

@@ -1,0 +1,34 @@
+= Medicinal Fungi Taxonomy
+:docnumber: 0002
+:partnumber: 1
+:edition: 1
+:revdate: 2026-02-17
+:copyright-year: 2026
+:language: en
+:title-intro-en: SIPM Standards
+:title-main-en: Medicinal Fungi Taxonomy and Nomenclature
+:title-part-en: General requirements
+:doctype: international-standard
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 2
+:technical-committee: Fungi and Lichens
+:library-ics: 07.100.20;11.120
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normref.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-taxonomy.adoc[]
+
+include::sections/05-nomenclature.adoc[]
+
+include::sections/b0-bibliography.adoc[]

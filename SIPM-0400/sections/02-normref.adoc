@@ -1,0 +1,24 @@
+[[norm-refs]]
+[bibliography]
+== Normative references
+
+The following documents are referred to in the text in such a way that some or
+all of their content constitutes requirements of this document. For dated
+references, only the edition cited applies. For undated references, the latest
+edition of the referenced document (including any amendments) applies.
+
+* [[[ICHGCP,ICH E6(R2) Good Clinical Practice]]]
+
+* [[[CONSORT,CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel
+  Group Randomized Trials]]]
+
+* [[[PRISMA,PRISMA Statement for Reporting Systematic Reviews]]]
+
+* [[[GRADE,Grading of Recommendations Assessment, Development and Evaluation
+  (GRADE) Handbook]]]
+
+* [[[WHOTM,WHO General Guidelines for Methodologies on Research and Evaluation
+  of Traditional Medicine]]]
+
+* [[[DECLHELSINKI,Declaration of Helsinki: Ethical Principles for Medical
+  Research Involving Human Subjects]]]

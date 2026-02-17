@@ -1,0 +1,17 @@
+[[bib]]
+[bibliography]
+== Bibliography
+
+[The bibliography contains informative references - documents that provide
+additional context or background but are not required for implementing the
+standard.]
+
+* [[[REFID1,{Standard Number}]]], _{Standard Title}_
+
+* [[[REFID2,Author Name.#]], _{Book or Article Title}_. Publisher, Year
+
+* [[[REFID3,Author Name.#]], Article title. _Journal Name_ Year, *Volume*
+  (Issue) pp. X-Y
+
+[Note: Use consistent citation format throughout. Reference IDs should be
+unique and memorable.]

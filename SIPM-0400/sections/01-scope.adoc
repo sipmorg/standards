@@ -1,0 +1,24 @@
+[[scope]]
+== Scope
+
+This document specifies requirements for the generation, evaluation, and
+reporting of clinical evidence for phytomedicine products.
+
+It is applicable to:
+
+* Clinical trials and observational studies of phytomedicines
+* Evidence synthesis and systematic reviews
+* Assessment of traditional use evidence
+* Regulatory submissions and health claims substantiation
+
+This document covers:
+
+* Herbal medicinal products
+* Medicinal fungi products
+* Traditional herbal preparations
+
+This document does not cover:
+
+* Preclinical (in vitro and animal) studies
+* Specific disease conditions or products
+* Regulatory requirements for specific jurisdictions

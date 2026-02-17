@@ -1,0 +1,32 @@
+= {Title}
+:docnumber: {XXXX}
+:partnumber: 1
+:edition: 1
+:revdate: {YYYY-MM-DD}
+:copyright-year: {YYYY}
+:language: en
+:title-intro-en: SIPM Standards
+:title-main-en: {Main Title}
+:title-part-en: {Part Title}
+:doctype: international-standard
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: {X}
+:technical-committee: {Committee Name}
+:library-ics: {XX.XXX}
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normref.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-{section-name}.adoc[]
+
+include::sections/b0-bibliography.adoc[]

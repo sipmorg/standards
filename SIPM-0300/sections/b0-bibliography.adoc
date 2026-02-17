@@ -1,0 +1,20 @@
+[[bib]]
+[bibliography]
+== Bibliography
+
+* [[[ICHQ2R1,ICH Q2(R1) Validation of Analytical Procedures: Text and
+  Methodology]]]
+
+* [[[FDAGuidance,FDA Guidance for Industry: Botanical Drug Development]]],
+  U.S. Food and Drug Administration, 2016
+
+* [[[EMAGuidance,EMA Guideline on Quality of Herbal Medicinal Products]]],
+  European Medicines Agency
+
+* [[[AOAC,AOAC Official Methods of Analysis]]], Association of Official
+  Analytical Chemists
+
+* [[[ICHQ3D,ICH Q3D Guideline for Elemental Impurities]]]
+
+* [[[USP2232,USP General Chapter <2232> Elemental Contaminants in Dietary
+  Supplements]]]

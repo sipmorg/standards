@@ -1,0 +1,11 @@
+[[intro]]
+== Introduction
+
+[Provide background information about the subject matter of this standard.
+Explain why the standard is needed and what problems it addresses. Include
+relevant historical context, scientific background, or industry context.]
+
+[Describe the scope and approach of the standard, including how it relates
+to other standards in the SIPM series.]
+
+[This section is optional but recommended for most standards.]

@@ -1,0 +1,27 @@
+[[intro]]
+== Introduction
+
+Medicinal fungi have been used for therapeutic purposes across cultures for
+millennia. In recent decades, scientific research has validated many traditional
+uses and identified bioactive compounds with significant pharmacological
+properties. As the medicinal fungi industry grows, accurate taxonomy and
+standardized nomenclature become essential for quality control, safety, and
+regulatory compliance.
+
+This document establishes standards for the taxonomic classification and
+nomenclature of medicinal fungi used in phytomedicine and natural health
+products. It addresses the unique challenges of fungal taxonomy, including
+the distinction between anamorph and teleomorph states, the complexity of
+fungal species complexes, and the need for consistent naming across scientific,
+commercial, and regulatory contexts.
+
+The standards presented here are designed to:
+
+* Ensure accurate identification of medicinal fungi species
+* Promote consistent nomenclature in scientific and commercial contexts
+* Facilitate communication between researchers, manufacturers, and regulators
+* Support quality control and traceability throughout the supply chain
+* Contribute to the conservation of medicinal fungi biodiversity
+
+This document is intended to be used in conjunction with SIPM-0001 (Terminology
+for Phytomedicine) and relevant analytical standards in the SIPM-0300 series.

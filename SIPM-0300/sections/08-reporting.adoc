@@ -1,0 +1,38 @@
+[[reporting]]
+== Reporting of results
+
+[[sec-report-content]]
+=== Certificate of analysis
+
+A certificate of analysis shall be provided for each batch tested, including:
+
+* Identity of the material tested
+* Batch or lot number
+* Date of testing
+* Reference to test methods used
+* Test results with units
+* Acceptance criteria
+* Pass/fail determination
+* Name and signature of authorized person
+
+[[sec-result-expression]]
+=== Expression of results
+
+Results shall be expressed:
+
+* In appropriate units (e.g., % w/w, mg/g, ppm)
+* On a consistent basis (dry weight or as-is)
+* With appropriate significant figures
+* With measurement uncertainty when required
+
+[[sec-records]]
+=== Record retention
+
+Analytical records shall be retained for a period defined by:
+
+* Regulatory requirements
+* Product shelf life
+* Quality management system requirements
+
+NOTE: A minimum retention period of one year beyond product shelf life is
+recommended.

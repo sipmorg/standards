@@ -1,0 +1,19 @@
+[[norm-refs]]
+[bibliography]
+== Normative references
+
+The following documents are referred to in the text in such a way that some or
+all of their content constitutes requirements of this document. For dated
+references, only the edition cited applies. For undated references, the latest
+edition of the referenced document (including any amendments) applies.
+
+* [[[WHOGACP,WHO Guidelines on Good Agricultural and Collection Practices (GACP) for Medicinal Plants]]]
+
+* [[[ISO9001,ISO 9001:2015]]], Quality management systems -- Requirements
+
+* [[[ISO14001,ISO 14001:2015]]], Environmental management systems -- Requirements
+  with guidance for use
+
+* [[[GLOBALGAP,GLOBALG.A.P. Integrated Farm Assurance Standard]]]
+
+* [[[EUROPAM,European Herb Growers Association (EUROPAM) Good Agricultural Practice Guidelines]]]

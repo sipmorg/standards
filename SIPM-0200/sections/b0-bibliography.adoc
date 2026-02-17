@@ -1,0 +1,18 @@
+[[bib]]
+[bibliography]
+== Bibliography
+
+* [[[FAOGAP,FAO Good Agricultural Practices]]], Food and Agriculture Organization
+  of the United Nations, Rome
+
+* [[[WHOQCM,WHO Quality Control Methods for Medicinal Plant Materials]]], World
+  Health Organization, Geneva, 1998
+
+* [[[AHPAGAP,AHPA Good Agricultural Practices]]], American Herbal Products
+  Association, Silver Spring, MD
+
+* [[[Craker,Craker L.E.#]], _Herbs, Botanicals and Teas_. Haworth Press,
+  Binghamton, NY, 2000
+
+* [[[Simon,Simon J.E.#]], _Herbs: An Indexed Bibliography, 1971-1980_.
+  Elsevier, Amsterdam, 1984

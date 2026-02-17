@@ -1,0 +1,127 @@
+[[terms]]
+== Terms and definitions
+
+For the purposes of this document, the following terms and definitions apply.
+Terms defined in SIPM-0001 also apply where relevant.
+
+=== analytical procedure
+
+detailed description of the steps required to perform an analytical test
+
+NOTE: Analytical procedures include sample preparation, measurement, and
+calculation steps.
+
+=== method validation
+
+process of demonstrating that an analytical procedure is suitable for its
+intended purpose
+
+=== specificity
+alt:[selectivity]
+
+ability of an analytical procedure to assess unequivocally the analyte in the
+presence of components that may be expected to be present
+
+=== accuracy
+alt:[trueness]
+
+closeness of agreement between the value found and the value accepted as true
+
+=== precision
+
+closeness of agreement between a series of measurements obtained from multiple
+sampling of the same homogeneous sample under prescribed conditions
+
+=== repeatability
+
+precision under the same operating conditions over a short interval of time
+
+=== intermediate precision
+
+precision within-laboratory variations, such as different days, different
+analysts, different equipment
+
+=== reproducibility
+
+precision between laboratories
+
+=== limit of detection
+alt:[LOD]
+
+lowest amount of analyte that can be detected but not necessarily quantified
+
+=== limit of quantitation
+alt:[LOQ]
+
+lowest amount of analyte that can be quantitatively determined with suitable
+precision and accuracy
+
+=== linearity
+
+ability of an analytical procedure to obtain test results that are directly
+proportional to the concentration of analyte within a given range
+
+=== range
+
+interval between upper and lower concentration amounts of analyte for which
+the analytical procedure has suitable precision, accuracy, and linearity
+
+=== robustness
+
+capacity of an analytical procedure to remain unaffected by small, but
+deliberate variations in method parameters
+
+=== reference standard
+
+substance or material characterized for use as a measurement standard in
+analytical procedures
+
+NOTE: Reference standards may be primary standards or working standards.
+
+=== system suitability
+
+evaluation of the components of an analytical system to ensure that the system
+is operating within acceptable parameters before analysis
+
+[[table-validation-params]]
+.Method validation parameters by test type
+[cols="30%,30%,40%"]
+|===
+| Parameter | Identity tests | Quantitative tests
+
+| Specificity
+| Required
+| Required
+
+| Accuracy
+| Not applicable
+| Required
+
+| Precision (repeatability)
+| Not applicable
+| Required
+
+| Intermediate precision
+| Not applicable
+| Required
+
+| Linearity
+| Not applicable
+| Required
+
+| Range
+| Not applicable
+| Required
+
+| LOD
+| Not applicable
+| When relevant
+
+| LOQ
+| Not applicable
+| Required
+
+| Robustness
+| Recommended
+| Required
+|===

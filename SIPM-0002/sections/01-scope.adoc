@@ -1,0 +1,26 @@
+[[scope]]
+== Scope
+
+This document specifies requirements for the taxonomic classification and
+nomenclature of medicinal fungi used in phytomedicine and natural health
+products.
+
+It is applicable to:
+
+* Scientific research and publication involving medicinal fungi
+* Cultivation, collection, and trade of medicinal fungi raw materials
+* Manufacturing and quality control of medicinal fungi products
+* Regulatory submissions and compliance
+* Education and training in mycology and phytomedicine
+
+This document covers:
+
+* Basidiomycetes (mushrooms, bracket fungi)
+* Ascomycetes (morels, truffles, Cordyceps)
+* Other fungi used for therapeutic purposes
+
+This document does not cover:
+
+* Detailed cultivation methods (addressed in SIPM-0200 series)
+* Specific analytical methods (addressed in SIPM-0300 series)
+* Clinical protocols (addressed in SIPM-0400 series)

@@ -1,0 +1,62 @@
+[[evidence-hierarchy]]
+== Evidence hierarchy
+
+[[sec-evidence-levels]]
+=== Levels of evidence
+
+Evidence for phytomedicine safety and efficacy shall be classified according
+to a hierarchical system that reflects the relative strength of different
+evidence types.
+
+[[table-evidence-levels]]
+.Evidence hierarchy for phytomedicine
+[cols="15%,25%,60%"]
+|===
+| Level | Evidence type | Description
+
+| Level I
+| Systematic reviews of RCTs
+| Meta-analyses and systematic reviews of randomized controlled trials
+
+| Level II
+| Randomized controlled trials
+| Well-designed randomized controlled trials with adequate sample size
+
+| Level III
+| Non-randomized controlled studies
+| Controlled studies without randomization, cohort studies
+
+| Level IV
+| Case series and case reports
+| Uncontrolled studies, case series, case reports
+
+| Level V
+| Traditional use evidence
+| Documented historical use, ethnobotanical records, traditional knowledge
+|===
+
+[[sec-evidence-weighting]]
+=== Evidence weighting
+
+When evaluating the totality of evidence, the following factors shall be
+considered:
+
+* Study design (higher levels provide stronger evidence)
+* Methodological quality of individual studies
+* Consistency of findings across studies
+* Directness of evidence to the population and intervention of interest
+* Precision of effect estimates
+
+[[sec-traditional-evidence]]
+=== Traditional use evidence
+
+Traditional use evidence may be considered as supporting evidence when:
+
+* The phytomedicine has been used for a defined period (typically 30+ years)
+* The conditions of use (dose, route, population) are documented
+* Safety information is available from traditional use
+* The traditional preparation method is relevant to the modern product
+
+NOTE: Traditional use evidence alone is generally insufficient to support
+efficacy claims in most regulatory jurisdictions, but may support safety
+and guide clinical research design.

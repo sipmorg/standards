@@ -1,0 +1,82 @@
+[[nomenclature]]
+== Nomenclature standards
+
+=== General requirements
+
+This clause establishes standards for the use of nomenclature in scientific
+publications, product labels, and regulatory documents.
+
+=== Documentation requirements
+
+==== Required elements
+
+The following elements shall be included in all references to medicinal fungi:
+
+a) Scientific name (genus and species)
+b) Authority citation (on first mention)
+c) Part of fungus used (fruiting body, mycelium, sclerotium, etc.)
+d) Source (wild-collected or cultivated)
+
+==== Recommended elements
+
+The following elements are recommended for comprehensive documentation:
+
+* Strain identifier (if applicable)
+* Geographic origin
+* Cultivation method
+* Harvest date
+
+=== Product labeling
+
+==== Standard format
+
+Product labels shall include the scientific name of the fungal ingredient.
+
+[example]
+Ganoderma lucidum (Reishi) fruiting body extract
+
+==== Common names
+
+Common names may be included alongside scientific names but shall not replace
+them as the primary identifier.
+
+=== Quality control documentation
+
+==== Voucher specimens
+
+Voucher specimens shall be preserved for all medicinal fungi used in research
+or commercial production.
+
+NOTE: See SIPM-0001 for requirements for voucher specimens.
+
+==== Identification records
+
+Records shall be maintained documenting the taxonomic identification process,
+including:
+
+* Morphological characteristics observed
+* Reference materials used for comparison
+* Name and qualifications of the identifier
+* Date of identification
+
+=== Species-specific requirements
+
+==== Ganoderma species
+
+Due to taxonomic complexity within the Ganoderma genus, identification shall
+include:
+
+* Macroscopic characteristics of the fruiting body
+* Microscopic characteristics of spores and hyphae
+* Geographic origin information
+
+==== Cordyceps species
+
+Cordyceps products shall specify:
+
+* Species identity (C. sinensis, C. militaris, or other)
+* Whether the product contains the natural complex (fungus + host) or
+  cultured mycelium
+
+NOTE: C. sinensis is endangered in the wild; cultured alternatives are
+commonly used.

@@ -1,0 +1,52 @@
+[[propagation]]
+== Propagation
+
+[[sec-seed-stock]]
+=== Seed stock requirements
+
+==== Identity verification
+
+The identity of seed stock shall be verified to species level before
+propagation. Acceptable methods include:
+
+* Purchase from certified suppliers with documentation
+* Comparison with reference materials
+* DNA-based authentication (where applicable)
+
+==== Quality requirements
+
+Seed stock shall be free from:
+
+* Visible signs of disease or pest damage
+* Contamination with seeds of other species
+* Physical damage or deterioration
+
+[[sec-propagation-methods]]
+=== Propagation methods
+
+==== Documentation
+
+The propagation method used shall be documented, including:
+
+* Type of propagation material (seed, cutting, rhizome, etc.)
+* Source of propagation material
+* Date of propagation
+* Environmental conditions
+
+==== Vegetative propagation
+
+For vegetatively propagated species:
+
+* Mother plants shall be positively identified and healthy
+* Regular inspection for trueness-to-type shall be conducted
+* Records of mother plant lineage shall be maintained
+
+[[sec-nursery]]
+=== Nursery management
+
+Nursery operations shall be conducted in a manner that:
+
+* Prevents cross-contamination between species or batches
+* Maintains appropriate environmental conditions
+* Includes regular inspection for pests and diseases
+* Documents all inputs and treatments applied

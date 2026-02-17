@@ -1,0 +1,68 @@
+[[cultivation]]
+== Cultivation management
+
+[[sec-planting]]
+=== Planting and establishment
+
+Planting operations shall be documented, including:
+
+* Date of planting
+* Plant spacing and density
+* Number of plants or quantity of seed used
+* Field or bed identification
+
+[[sec-irrigation]]
+=== Irrigation
+
+==== Water quality
+
+Irrigation water shall meet quality standards appropriate for the intended
+use, including:
+
+* Absence of pathogenic microorganisms
+* Acceptable levels of chemical contaminants
+* pH within appropriate range
+
+==== Irrigation records
+
+Irrigation records shall include:
+
+* Source of water
+* Method of application
+* Frequency and duration
+* Any treatments applied to water
+
+[[sec-plant-protection]]
+=== Plant protection
+
+==== Integrated pest management
+
+Plant protection shall be based on integrated pest management (IPM) principles:
+
+* Prevention through good cultural practices
+* Monitoring and early detection
+* Use of biological controls where appropriate
+* Chemical controls only when necessary and permitted
+
+==== Pesticide use
+
+When pesticides are used:
+
+* Only products approved for use on medicinal plants shall be applied
+* Application shall follow label instructions
+* Pre-harvest intervals shall be strictly observed
+* All applications shall be documented
+
+NOTE: Many jurisdictions have specific restrictions on pesticide use for
+medicinal plants.
+
+[[sec-records]]
+=== Cultivation records
+
+Records shall be maintained throughout the cultivation period, including:
+
+* Planting dates and methods
+* Environmental conditions (where controlled)
+* Irrigation and fertilization
+* Pest and disease observations and treatments
+* Any deviation from standard protocols

@@ -1,0 +1,47 @@
+[[quality-assessment]]
+== Quality assessment of clinical studies
+
+[[sec-quality-criteria]]
+=== Quality criteria
+
+The methodological quality of clinical studies shall be assessed using
+validated assessment tools appropriate to the study design.
+
+[[table-quality-tools]]
+.Quality assessment tools by study design
+[cols="40%,60%"]
+|===
+| Study design | Assessment tool
+
+| Randomized controlled trials
+| Cochrane Risk of Bias tool, Jadad scale
+
+| Non-randomized studies
+| Newcastle-Ottawa Scale, ROBINS-I
+
+| Systematic reviews
+| AMSTAR 2, ROBIS
+|===
+
+[[sec-quality-domains]]
+=== Quality domains for RCTs
+
+Quality assessment of randomized controlled trials shall address:
+
+* Random sequence generation
+* Allocation concealment
+* Blinding of participants and personnel
+* Blinding of outcome assessment
+* Incomplete outcome data
+* Selective reporting
+* Other sources of bias
+
+[[sec-transparency]]
+=== Transparency requirements
+
+To support quality assessment, clinical studies shall be:
+
+* Registered in a public trials registry before enrollment
+* Conducted in accordance with Good Clinical Practice (GCP)
+* Reported completely and transparently
+* Made available through open access when possible

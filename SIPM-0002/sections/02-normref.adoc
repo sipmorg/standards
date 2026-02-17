@@ -1,0 +1,22 @@
+[[norm-refs]]
+[bibliography]
+== Normative references
+
+The following documents are referred to in the text in such a way that some or
+all of their content constitutes requirements of this document. For dated
+references, only the edition cited applies. For undated references, the latest
+edition of the referenced document (including any amendments) applies.
+
+* [[[ICN,International Code of Nomenclature for algae, fungi, and plants (Shenzhen Code)]]]
+
+* [[[ICNP,International Code of Nomenclature of Prokaryotes]]]
+
+* [[[IndexFungorum,Index Fungorum Database]]]
+
+* [[[MycoBank,MycoBank Fungal Database]]]
+
+* [[[WHOQCM,WHO Quality Control Methods for Medicinal Plant Materials]]]
+
+* [[[EP10th,European Pharmacopoeia 10th Edition]]]
+
+* [[[USPNF,United States Pharmacopeia - National Formulary]]]

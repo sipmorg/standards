@@ -1,0 +1,101 @@
+[[purity]]
+== Purity testing
+
+[[sec-purity-general]]
+=== General requirements
+
+Purity testing shall be performed to ensure that plant materials and
+preparations are free from unacceptable levels of contaminants.
+
+[[sec-contaminants]]
+=== Contaminant categories
+
+==== Foreign matter
+
+Testing for foreign matter shall address:
+
+* Other plant species
+* Plant parts other than the intended part
+* Inert materials (soil, stones, etc.)
+
+Acceptance criteria shall be specified based on pharmacopoeial standards or
+product specifications.
+
+==== Heavy metals
+
+Heavy metal testing shall include, at minimum:
+
+* Lead (Pb)
+* Cadmium (Cd)
+* Mercury (Hg)
+* Arsenic (As)
+
+Acceptance limits shall be established based on regulatory requirements or
+risk assessment.
+
+[.source]
+<<ICHQ3R8>>
+
+==== Pesticide residues
+
+Pesticide residue testing shall:
+
+* Include pesticides commonly used in cultivation of the species
+* Consider pesticides from previous land use
+* Comply with regulatory limits for the intended market
+
+==== Mycotoxins
+
+Mycotoxin testing shall be performed when:
+
+* Material is susceptible to fungal contamination
+* Storage conditions may promote fungal growth
+* Regulatory requirements apply
+
+Common mycotoxins to be tested include:
+
+* Aflatoxins (B1, B2, G1, G2)
+* Ochratoxin A
+* Fumonisins
+
+==== Microbiological contamination
+
+Microbiological testing shall address:
+
+* Total aerobic microbial count
+* Yeast and mold count
+* Specified pathogenic organisms
+
+Acceptance criteria shall be based on intended use and regulatory requirements.
+
+==== Solvent residues
+
+For extracts prepared using organic solvents, testing shall verify that
+residual solvent levels are within acceptable limits.
+
+[[table-contaminants]]
+.Purity testing requirements
+[cols="25%,35%,40%"]
+|===
+| Contaminant | Test method | Acceptance criteria
+
+| Foreign matter
+| Visual/manual separation
+| Pharmacopoeial limits
+
+| Heavy metals
+| ICP-MS, AAS
+| ICH Q3D limits
+
+| Pesticides
+| GC-MS, LC-MS
+| Regulatory limits
+
+| Mycotoxins
+| HPLC, LC-MS
+| Regulatory limits
+
+| Microbiology
+| Plate count, PCR
+| Pharmacopoeial limits
+|===

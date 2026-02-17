@@ -1,0 +1,36 @@
+[[intro]]
+== Introduction
+
+The field of phytomedicine encompasses the study and therapeutic use of plant-
+derived substances for the prevention and treatment of disease. As interest in
+natural health products has grown globally, the need for standardized terminology
+has become increasingly important to ensure clear communication among
+researchers, healthcare practitioners, regulators, manufacturers, and consumers.
+
+This document establishes a comprehensive vocabulary for phytomedicine that
+provides a foundation for consistent use of terms across scientific literature,
+regulatory documents, product labels, and clinical communications. The
+terminology presented here has been developed through consensus among
+international experts in pharmacognosy, botany, chemistry, pharmacology,
+toxicology, and clinical medicine.
+
+The terminology in this document is organized into two main sections:
+
+* Clause 3 defines core concepts that are essential for understanding
+  phytomedicine and its related fields
+* Clause 4 provides additional vocabulary for specific domains within
+  phytomedicine
+
+This document is intended to serve as a reference for authors of scientific
+papers, developers of regulatory guidelines, manufacturers of phytomedicine
+products, and healthcare professionals who recommend or prescribe phytomedicines.
+
+The development of this terminology standard reflects SIPM's commitment to
+advancing the scientific basis of phytomedicine while respecting traditional
+knowledge systems. The definitions provided here are designed to be precise
+enough for scientific use while remaining accessible to diverse stakeholders
+in the phytomedicine community.
+
+Future revisions of this document will incorporate new terms as the field
+evolves and will refine existing definitions based on scientific advances and
+feedback from users of the standard.

@@ -1,0 +1,44 @@
+[[terms]]
+== Terms and definitions
+
+For the purposes of this document, the following terms and definitions apply.
+Terms defined in SIPM-0001 also apply where relevant.
+
+=== cultivation site
+
+area of land or controlled environment used for growing medicinal plants
+
+NOTE: Cultivation sites may include open fields, greenhouses, hydroponic
+systems, or other controlled environments.
+
+=== seed stock
+
+material used for propagation, including true seeds, cuttings, rhizomes,
+bulbs, or other vegetative propagation material
+
+=== cultivation protocol
+
+documented procedures for growing a specific medicinal plant species,
+including environmental parameters, inputs, and timing
+
+=== plant protection
+
+measures taken to protect medicinal plants from pests, diseases, and other
+threats to their health and quality
+
+=== primary processing
+
+initial processing of plant material after harvest, including cleaning,
+drying, cutting, and packaging
+
+NOTE: Primary processing does not include extraction or formulation.
+
+=== batch
+
+defined quantity of plant material produced in a single process or series of
+processes, allowing for traceability
+
+=== traceability
+
+ability to trace the history, application, or location of plant material
+through recorded identification data

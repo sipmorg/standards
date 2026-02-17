@@ -1,0 +1,17 @@
+[[bib]]
+[bibliography]
+== Bibliography
+
+* [[[CONSORT2010,Schulz K.F.#]], CONSORT 2010 Statement: Updated guidelines for
+  reporting parallel group randomized trials. _BMJ_ 2010, *340*, c332
+
+* [[[GRADEhandbook,Schunemann H.J.#]], _GRADE Handbook_. Cochrane, 2013
+
+* [[[FWHO2000,WHO General Guidelines for Methodologies on Research and
+  Evaluation of Traditional Medicine]]], World Health Organization, Geneva, 2000
+
+* [[[EichEich D.#]], Clinical trials in phytomedicine: Challenges and
+  opportunities. _Phytomedicine_ 2015, *22* (12) pp. 1061-1065
+
+* [[[GagnierGagnier J.J.#]], Improving the quality of reporting of randomized
+  controlled trials in phytomedicine. _Phytomedicine_ 2006, *13* (4) pp. 274-282

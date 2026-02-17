@@ -1,0 +1,19 @@
+[[bib]]
+[bibliography]
+== Bibliography
+
+* [[[Kirk,Kirk P.M.#]], _Dictionary of the Fungi_. 10th ed. CABI Publishing,
+  Wallingford, UK, 2008
+
+* [[[Stamets,Stamets P.#]], _Growing Gourmet and Medicinal Mushrooms_.
+  3rd ed. Ten Speed Press, Berkeley, CA, 2000
+
+* [[[Wasser,Wasser S.P.#]], Medicinal mushrooms as a source of antitumor and
+  immunomodulating polysaccharides. _Appl. Microbiol. Biotechnol._ 2002,
+  *60* pp. 258-274
+
+* [[[Hobbs,Hobbs C.#]], _Medicinal Mushrooms: An Exploration of Tradition,
+  Healing, and Culture_. Botanica Press, Santa Cruz, CA, 1995
+
+* [[[Chang,Chang S.T.#]], _Mushroom Biology and Mushroom Products_.
+  Chinese University Press, Hong Kong, 1993

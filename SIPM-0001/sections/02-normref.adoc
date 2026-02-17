@@ -1,0 +1,22 @@
+[[norm-refs]]
+[bibliography]
+== Normative references
+
+The following documents are referred to in the text in such a way that some or
+all of their content constitutes requirements of this document. For dated
+references, only the edition cited applies. For undated references, the latest
+edition of the referenced document (including any amendments) applies.
+
+* [[[WHOGMP,WHO Guidelines on Good Agricultural and Collection Practices (GACP) for Medicinal Plants]]]
+
+* [[[WHOTERM,WHO International Standard Terminologies on Traditional Medicine in the Western Pacific Region]]]
+
+* [[[ICHQ3R8,ICH Q3(R8) Guideline for Elemental Impurities]]]
+
+* [[[ISO9000,ISO 9000:2015]]]
+
+* [[[ISO11095,ISO 11095:1996]]]
+
+* [[[EP10th,European Pharmacopoeia 10th Edition]]]
+
+* [[[USPNF,United States Pharmacopeia - National Formulary]]]

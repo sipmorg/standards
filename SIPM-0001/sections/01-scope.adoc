@@ -1,0 +1,25 @@
+[[scope]]
+== Scope
+
+This document defines terms and establishes a vocabulary for the field of
+phytomedicine.
+
+It is applicable to:
+
+* Scientific research and publication in phytomedicine
+* Development and communication of regulatory requirements
+* Manufacturing, quality control, and quality assurance of phytomedicine products
+* Clinical practice and patient communication
+* Education and training in phytomedicine and related fields
+* Trade and commerce of phytomedicine products and raw materials
+
+This document does not cover:
+
+* Detailed taxonomic classification of medicinal plants (addressed in
+  SIPM-0002)
+* Specific analytical methods (addressed in SIPM-0300 series)
+* Clinical protocols (addressed in SIPM-0400 series)
+
+The terms defined in this document are intended to be used in conjunction with
+other SIPM standards and may be referenced by external standards and regulatory
+documents.

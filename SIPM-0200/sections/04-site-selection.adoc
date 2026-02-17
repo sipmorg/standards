@@ -1,0 +1,55 @@
+[[site-selection]]
+== Site selection and preparation
+
+[[sec-site-criteria]]
+=== Site selection criteria
+
+==== Environmental requirements
+
+The cultivation site shall meet the environmental requirements of the target
+plant species, including:
+
+a) Climate conditions (temperature, rainfall, sunlight)
+b) Soil characteristics (type, pH, drainage, nutrient content)
+c) Water availability and quality
+d) Altitude and topography
+
+==== Contamination assessment
+
+Prior to establishment, the site shall be assessed for potential sources of
+contamination, including:
+
+* Previous land use and potential residual contaminants
+* Proximity to industrial facilities or major transportation routes
+* Presence of heavy metals in soil and water
+* Risk of pesticide drift from neighboring agricultural operations
+
+[[sec-site-records]]
+=== Site documentation
+
+The following documentation shall be maintained:
+
+* Site location and boundaries (geographic coordinates)
+* History of land use for at least the previous 5 years
+* Results of soil and water testing
+* Map of the cultivation area
+
+=== Soil management
+
+==== Soil testing
+
+Soil shall be tested prior to planting and periodically during cultivation for:
+
+* Nutrient content
+* pH level
+* Heavy metal content
+* Organic matter content
+* Presence of pathogens
+
+==== Soil amendment
+
+Soil amendments, including fertilizers and conditioners, shall be:
+
+* Documented with product name, source, and application rate
+* Applied according to label instructions or professional recommendations
+* Sourced from suppliers who provide certificates of analysis

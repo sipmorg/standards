@@ -1,0 +1,314 @@
+[[terms]]
+== Terms and definitions
+
+For the purposes of this document, the following terms and definitions apply.
+
+=== phytomedicine
+alt:[herbal medicine]
+alt:[plant medicine]
+
+medicinal product whose active ingredients are exclusively derived from one or
+more plants, algae, fungi, or lichens in processed or unprocessed form
+
+NOTE 1: Phytomedicines may contain plant parts, plant juices, plant extracts,
+or purified compounds isolated from plants.
+
+NOTE 2: In some regulatory contexts, the term "herbal medicinal product" is
+used synonymously.
+
+[.source]
+<<WHOTERM,page 35>>
+
+=== medicinal plant
+
+plant species that contains substances which can be used for therapeutic
+purposes or which are precursors for the synthesis of useful drugs
+
+NOTE: Medicinal plants may be used in their whole form or as a source of
+isolated compounds.
+
+=== botanical drug product
+alt:[botanical drug]
+
+finished product that contains a botanical drug substance, generally as the
+active ingredient, and is intended to diagnose, cure, treat, mitigate, or
+prevent disease
+
+NOTE: This term is commonly used in regulatory contexts, particularly in the
+United States.
+
+[.source]
+<<USPNF>>
+
+=== herbal preparation
+
+preparation obtained by subjecting herbal substances to treatments such as
+extraction, distillation, expression, fractionation, purification,
+concentration, or fermentation
+
+NOTE: Herbal preparations include, but are not limited to, comminuted or
+powdered herbal substances, tinctures, extracts, essential oils, expressed
+juices, and processed exudates.
+
+[.source]
+<<EP10th>>
+
+=== herbal substance
+alt:[herbal drug]
+alt:[plant material]
+
+whole, fragmented, or cut plants, parts of plants, algae, fungi, or lichen in
+an unprocessed state, usually in dried form but sometimes fresh
+
+NOTE: Certain exudates that have not been subjected to a specific treatment are
+also considered herbal substances.
+
+[.source]
+<<EP10th>>
+
+=== active pharmaceutical ingredient
+alt:[API]
+alt:[active ingredient]
+
+substance or mixture of substances intended to be used in the manufacture of a
+drug product and that, when used in the production of a drug, becomes an active
+ingredient in the drug product
+
+NOTE 1: In phytomedicine, the API may be a single compound or a defined
+mixture of compounds derived from the plant material.
+
+NOTE 2: For some phytomedicines, the active constituents are not fully
+characterized, and the API is defined as the herbal preparation or its
+standardized extract.
+
+=== marker compound
+
+chemical constituent or group of constituents characteristic of a particular
+plant species or plant part, used for identification, quality assessment, or
+standardization purposes
+
+NOTE: Marker compounds are not necessarily responsible for the therapeutic
+activity of the phytomedicine.
+
+=== active marker compound
+
+marker compound that contributes to the therapeutic activity of a phytomedicine
+
+NOTE: Active markers may be used for standardization when the full mechanism
+of action is not understood.
+
+=== characteristic constituent
+alt：【diagnostic marker】
+
+chemical constituent that is unique to, or highly characteristic of, a
+particular plant species and can be used for authentication purposes
+
+=== standardized extract
+
+herbal preparation that has been processed to contain a defined amount of one
+or more specified constituents, typically expressed as a percentage or range
+
+NOTE: Standardization may be based on active markers, analytical markers, or
+characteristic constituents.
+
+=== quantified extract
+
+herbal preparation with defined content ranges for one or more groups of
+constituents
+
+NOTE: Unlike standardized extracts, quantified extracts specify acceptable
+ranges rather than target values.
+
+=== native extract
+alt:[genuine extract]
+
+extract that contains only constituents naturally present in the source
+material, without added excipients or further processing that would alter its
+composition
+
+=== processed extract
+
+extract that has undergone additional processing steps beyond initial
+extraction, which may include purification, concentration, drying, or addition
+of excipients
+
+=== extraction
+
+process of separating active or desirable constituents from plant material using
+a solvent or other physical or chemical means
+
+=== extraction solvent
+
+solvent used to extract desired constituents from plant material
+
+NOTE: Common extraction solvents include water, ethanol, methanol,
+supercritical carbon dioxide, and various oils.
+
+=== extraction yield
+alt:[extract yield]
+
+amount of extract obtained from a specified amount of starting plant material,
+typically expressed as a percentage by mass
+
+=== phytochemistry
+
+branch of chemistry dealing with the chemical constituents of plants and their
+properties, reactions, and methods of isolation and identification
+
+=== pharmacognosy
+
+study of medicines derived from natural sources, including plants, animals,
+and microorganisms, encompassing their physical, chemical, biochemical, and
+biological properties
+
+=== plant part
+alt:[plant organ]
+alt:[medicinal plant part]
+
+specific organ or portion of a plant that is used for medicinal purposes
+
+[example]
+Root, rhizome, bark, leaf, flower, fruit, seed, whole herb.
+
+=== botanical identification
+
+process of determining the identity of a plant material to species level,
+including verification of the plant part used
+
+=== adulteration
+
+intentional addition of non-authentic material or the substitution of authentic
+material with inferior or harmful substances
+
+NOTE: Adulteration may involve addition of synthetic drugs, other plant
+species, or contaminants.
+
+=== contamination
+
+unintended presence of harmful or undesirable substances in plant material or
+herbal preparations
+
+[example]
+Heavy metals, pesticides, mycotoxins, microorganisms, foreign plant material.
+
+=== quality control
+
+operational techniques and activities used to fulfill requirements for quality
+
+NOTE: In phytomedicine, quality control typically includes identity testing,
+purity testing, potency assessment, and stability testing.
+
+[.source]
+<<ISO9000,clause 3.3.7>>
+
+=== stability
+
+capacity of a phytomedicine product to remain within established specifications
+for identity, strength, quality, and purity throughout its shelf life
+
+=== shelf life
+alt:[expiration dating period]
+
+time period during which a phytomedicine product is expected to remain within
+approved shelf-life specifications, provided it is stored under the conditions
+defined on the container label
+
+=== good agricultural and collection practices
+alt:[GACP]
+
+practices addressing quality assurance and control in the production and
+collection of medicinal plants
+
+NOTE: GACP covers cultivation, harvesting, post-harvest processing, storage,
+and transportation.
+
+[.source]
+<<WHOGMP>>
+
+=== voucher specimen
+
+preserved sample of plant material that serves as a permanent record of the
+source material used in scientific studies or commercial production
+
+NOTE: Voucher specimens enable verification of botanical identity and are
+typically deposited in recognized herbaria.
+
+=== botanical reference material
+alt:[BRM]
+
+well-characterized material used as a standard for comparison in identity
+testing and quality control
+
+NOTE: Botanical reference materials may be whole plant material, plant parts,
+or processed extracts.
+
+=== therapeutic indication
+
+medical condition or disease state for which a phytomedicine is intended to
+be used
+
+=== contraindication
+
+condition or factor that serves as a reason to withhold a certain medical
+treatment due to the harm that it would cause the patient
+
+=== traditional use
+
+use of a medicinal plant or phytomedicine based on accumulated knowledge and
+experience over generations within a specific cultural context
+
+=== well-established use
+
+use of a medicinal plant or phytomedicine that has been recognized for at
+least 10 years within a specific jurisdiction with demonstrated safety and
+efficacy
+
+NOTE: Well-established use may be a basis for simplified regulatory approval
+in some jurisdictions.
+
+=== safety
+
+absence of unacceptable risk of harm to human health under intended or
+foreseeable conditions of use
+
+=== efficacy
+
+ability of a phytomedicine to produce a beneficial effect under controlled
+conditions
+
+=== pharmacovigilance
+
+science and activities relating to the detection, assessment, understanding,
+and prevention of adverse effects or any other drug-related problems
+
+=== herbal-drug interaction
+alt:[herb-drug interaction]
+alt:[HD interaction]
+
+modification of the effect of a drug when co-administered with a herbal
+preparation, or modification of the effect of a herbal preparation when
+co-administered with a drug
+
+NOTE: Interactions may result in increased or decreased drug effects,
+or new adverse reactions.
+
+[[table-markers]]
+.Marker compound classification
+[cols="25%,75%"]
+|===
+| Classification | Description
+
+| Active marker
+| Compound that contributes to the therapeutic effect and is used for
+  standardization
+
+| Analytical marker
+| Compound used for identification and quantification purposes, not necessarily
+  therapeutically active
+
+| Toxicity marker
+| Compound that indicates potential toxicity concerns
+
+| Stability marker
+| Compound that degrades in a predictable manner and indicates product stability
+|===

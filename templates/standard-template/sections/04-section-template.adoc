@@ -1,0 +1,44 @@
+[[section-id]]
+== Section title
+
+[[subsection-id]]
+=== Subsection title
+
+==== General requirements
+
+[Describe the general requirements for this section. Use "shall" for mandatory
+requirements, "should" for recommendations, and "may" for permissible actions.]
+
+==== Specific requirements
+
+[Detail specific requirements using numbered or bulleted lists as appropriate]
+
+Requirements shall include:
+
+a) First requirement
+b) Second requirement
+c) Third requirement
+
+NOTE: Notes provide additional information but do not contain requirements.
+
+[[table-example]]
+.Example table caption
+[cols="25%,25%,50%"]
+|===
+| Column 1 | Column 2 | Column 3
+
+| Data 1
+| Data 2
+| Data 3
+
+| Data 4
+| Data 5
+| Data 6
+|===
+
+[[figure-example]]
+.Example figure caption
+image::path/to/figure.png[]
+
+[Note: Figures should be placed in a figures/ subdirectory within the standard
+directory.]

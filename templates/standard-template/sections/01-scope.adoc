@@ -1,0 +1,23 @@
+[[scope]]
+== Scope
+
+This document specifies [describe what the document covers].
+
+It is applicable to:
+
+* [First application area]
+* [Second application area]
+* [Third application area]
+
+This document covers:
+
+* [First coverage area]
+* [Second coverage area]
+
+This document does not cover:
+
+* [First exclusion - typically with reference to related standard]
+* [Second exclusion]
+
+[The scope should be clear and concise, typically 3-6 bullet points for
+applicability and similar for exclusions.]

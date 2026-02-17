@@ -1,0 +1,30 @@
+[[intro]]
+== Introduction
+
+The quality of phytomedicine products begins with the quality of the raw plant
+material. Agricultural practices directly influence the identity, purity,
+potency, and safety of medicinal plants and, consequently, the final products
+derived from them. This standard establishes requirements for the cultivation,
+collection, and primary processing of medicinal plants to ensure consistent
+quality throughout the supply chain.
+
+This document is aligned with international guidelines, including the WHO
+Guidelines on Good Agricultural and Collection Practices (GACP) for Medicinal
+Plants, and incorporates additional requirements specific to the phytomedicine
+industry.
+
+The standard addresses the complete agricultural production cycle:
+
+* Site selection and preparation
+* Propagation and cultivation
+* Plant protection and pest management
+* Harvesting and primary processing
+* Storage and transportation
+
+Implementation of this standard supports:
+
+* Traceability of medicinal plant materials
+* Consistency of phytochemical profiles
+* Minimization of contamination risks
+* Environmental sustainability
+* Social responsibility in medicinal plant production

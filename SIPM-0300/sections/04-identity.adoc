@@ -1,0 +1,68 @@
+[[identity]]
+== Identity testing
+
+[[sec-identity-general]]
+=== General requirements
+
+Identity testing shall be performed to confirm that plant material or
+preparations are authentic and correctly identified.
+
+=== Methods of identity testing
+
+==== Macroscopic examination
+
+Macroscopic examination shall include:
+
+* Visual assessment of color, form, and texture
+* Odor assessment (where appropriate)
+* Comparison with authenticated reference material or written description
+
+==== Microscopic examination
+
+Microscopic examination shall include:
+
+* Observation of characteristic cellular structures
+* Comparison with reference material or photomicrographs
+* Documentation of distinguishing features
+
+NOTE: Microscopic examination is particularly important for powdered materials.
+
+==== Chromatographic methods
+
+Chromatographic methods for identity testing shall:
+
+* Produce a fingerprint characteristic of the species
+* Include comparison with authenticated reference material
+* Document retention times and peak patterns
+
+Acceptable chromatographic methods include:
+
+* Thin-layer chromatography (TLC)
+* High-performance liquid chromatography (HPLC)
+* Gas chromatography (GC)
+
+==== Spectroscopic methods
+
+Spectroscopic methods may be used for identity testing, including:
+
+* Near-infrared spectroscopy (NIR)
+* Fourier-transform infrared spectroscopy (FTIR)
+* Nuclear magnetic resonance (NMR)
+
+==== DNA-based methods
+
+DNA-based authentication shall:
+
+* Use validated marker regions appropriate for the species
+* Include appropriate positive and negative controls
+* Be performed by competent laboratories
+
+[[sec-identity-acceptance]]
+=== Acceptance criteria
+
+Material shall be considered positively identified when:
+
+a) Results of identity testing are consistent with reference material or
+   documented characteristics
+b) No evidence of adulteration or substitution is detected
+c) Testing is performed by qualified personnel using validated methods

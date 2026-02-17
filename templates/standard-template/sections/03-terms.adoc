@@ -1,0 +1,50 @@
+[[terms]]
+== Terms and definitions
+
+For the purposes of this document, the following terms and definitions apply.
+Terms defined in SIPM-0001 also apply where relevant.
+
+=== term name
+alt:[alternative term]
+deprecated:[deprecated term]
+
+[Definition text goes here. Use clear, concise language. Definitions should
+be able to stand alone without requiring additional context.]
+
+NOTE: Additional information that clarifies the definition but is not part
+of the definition itself.
+
+[example]
+Example text that illustrates the use of the term.
+
+[.source]
+<<ReferenceID,clause X.Y>>
+
+[Note: Source citation is optional but recommended when definitions are derived
+from existing standards or authoritative sources.]
+
+=== another term
+
+[Definition text]
+
+NOTE: [Any relevant notes]
+
+=== third term
+
+[Definition text]
+
+[example]
+[Example text]
+
+[[table-example]]
+.Example table in terms section
+[cols="30%,70%"]
+|===
+| Term | Definition
+
+| First term
+| Definition of first term
+
+| Second term
+| Definition of second term
+|===

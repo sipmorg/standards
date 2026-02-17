@@ -1,0 +1,46 @@
+[[validation]]
+== Method validation
+
+[[sec-validation-requirements]]
+=== Validation requirements
+
+Analytical methods shall be validated before use in quality control testing.
+Validation shall be documented and shall demonstrate that the method is fit
+for its intended purpose.
+
+[[sec-validation-parameters]]
+=== Validation parameters
+
+Validation shall address the parameters specified in <<table-validation-params>>,
+as applicable to the method type.
+
+[[sec-protocol]]
+=== Validation protocol
+
+A validation protocol shall be prepared that includes:
+
+* Objective of the validation
+* Description of the analytical procedure
+* Parameters to be evaluated
+* Acceptance criteria for each parameter
+* Experimental design and sample requirements
+
+[[sec-report]]
+=== Validation report
+
+A validation report shall be prepared that includes:
+
+* Summary of validation experiments performed
+* Raw data and statistical analysis
+* Comparison of results to acceptance criteria
+* Conclusion on method suitability
+* Any deviations from the protocol and their impact
+
+[[sec-revalidation]]
+=== Revalidation
+
+Methods shall be revalidated when:
+
+* Changes are made to the analytical procedure
+* The method is transferred to another laboratory
+* Results indicate the method is no longer performing adequately

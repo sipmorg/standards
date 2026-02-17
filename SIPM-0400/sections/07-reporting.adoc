@@ -1,0 +1,54 @@
+[[reporting]]
+== Reporting standards
+
+[[sec-reporting-guidelines]]
+=== Reporting guidelines
+
+Clinical studies of phytomedicines shall be reported in accordance with
+recognized reporting guidelines:
+
+* CONSORT for randomized controlled trials
+* STROBE for observational studies
+* PRISMA for systematic reviews
+* TREND for non-randomized evaluations
+
+[[sec-reporting-elements]]
+=== Essential reporting elements
+
+Reports of phytomedicine clinical studies shall include:
+
+==== Product information
+
+* Complete botanical identification (species, authority, plant part)
+* Extract type and method of preparation
+* Drug-to-extract ratio (for extracts)
+* Standardization information (marker compounds and levels)
+* Dose and dosing regimen
+* Manufacturer and batch numbers
+
+==== Study methods
+
+* Study design and justification
+* Participant eligibility criteria
+* Interventions for each group
+* Outcome measures and timing
+* Sample size calculation
+* Randomization and blinding methods
+* Statistical methods
+
+==== Results
+
+* Participant flow (recruitment, allocation, follow-up, analysis)
+* Baseline characteristics
+* Results for primary and secondary outcomes
+* Harms and adverse events
+* Limitations
+
+[[sec-data-sharing]]
+=== Data sharing
+
+To support evidence synthesis and transparency:
+
+* Individual participant data should be made available where possible
+* Study protocols and statistical analysis plans should be published
+* Negative and inconclusive results should be reported

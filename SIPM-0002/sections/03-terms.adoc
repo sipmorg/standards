@@ -1,0 +1,77 @@
+[[terms]]
+== Terms and definitions
+
+For the purposes of this document, the following terms and definitions apply.
+Terms defined in SIPM-0001 also apply where relevant.
+
+=== medicinal fungus
+alt:[medicinal mushroom]
+
+fungal species that contains substances which can be used for therapeutic
+purposes or which are precursors for the synthesis of useful drugs
+
+=== basidiomycete
+
+member of the phylum Basidiomycota, characterized by the production of
+spores on a basidium
+
+NOTE: Common medicinal basidiomycetes include Reishi (Ganoderma lucidum),
+Shiitake (Lentinula edodes), and Turkey Tail (Trametes versicolor).
+
+=== ascomycete
+
+member of the phylum Ascomycota, characterized by the production of spores
+in an ascus
+
+NOTE: Common medicinal ascomycetes include Cordyceps (Cordyceps sinensis),
+Morel (Morchella spp.), and Chaga (Inonotus obliquus).
+
+=== fruiting body
+alt:[sporocarp]
+alt:[mushroom]
+
+reproductive structure of a fungus that produces and disperses spores
+
+=== mycelium
+
+vegetative part of a fungus, consisting of a network of fine white filaments
+(hyphae)
+
+=== sclerotium
+
+compact mass of hardened fungal mycelium containing food reserves, capable of
+remaining dormant for extended periods
+
+NOTE: The sclerotium of Poria cocos (Fu Ling) is used medicinally.
+
+=== spore
+
+reproductive unit of a fungus, capable of developing into a new organism
+
+=== anamorph
+
+asexual reproductive state of a fungus
+
+NOTE: Some medicinal fungi are primarily known by their anamorph names.
+
+=== teleomorph
+
+sexual reproductive state of a fungus
+
+=== holomorph
+
+complete fungus including both anamorph and teleomorph states
+
+=== species complex
+
+group of closely related species that are difficult to distinguish morphologically
+
+NOTE: Species complexes are common in medicinal fungi and may have different
+bioactive profiles.
+
+=== strain
+
+genetically distinct isolate or subpopulation within a fungal species
+
+NOTE: Different strains of the same species may vary in their production of
+bioactive compounds.

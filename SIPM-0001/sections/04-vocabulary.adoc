@@ -1,0 +1,222 @@
+[[vocabulary]]
+== Additional vocabulary
+
+This clause provides additional vocabulary organized by domain.
+
+=== Extraction and processing
+
+==== maceration
+
+extraction process in which plant material is soaked in a solvent at room
+temperature for an extended period
+
+==== percolation
+
+extraction process in which solvent passes through a column or bed of plant
+material, typically under gravity or low pressure
+
+==== decoction
+
+extraction process involving boiling plant material in water
+
+NOTE: Decoction is traditionally used for hard plant materials such as roots,
+bark, and seeds.
+
+==== infusion
+
+extraction process in which plant material is steeped in hot or cold water
+without boiling
+
+NOTE: Infusion is traditionally used for delicate plant materials such as
+leaves and flowers.
+
+==== tincture
+alt:[alcoholic extract]
+
+liquid preparation obtained by maceration or percolation of plant material in
+a mixture of alcohol and water
+
+NOTE: Tinctures are typically prepared at defined drug-to-extract ratios.
+
+==== fluid extract
+alt:[liquid extract]
+
+liquid preparation containing the active constituents of plant material,
+typically more concentrated than a tincture
+
+==== dry extract
+
+solid extract obtained by removal of the extraction solvent, typically through
+evaporation or freeze-drying
+
+==== soft extract
+alt:[semi-solid extract]
+
+extract with a viscous or semi-solid consistency, typically containing
+residual moisture or solvent
+
+==== drug-to-extract ratio
+alt:[DER]
+
+ratio of the mass of starting plant material to the mass of the resulting
+extract
+
+[example]
+A 10:1 drug-to-extract ratio indicates that 10 kg of plant material yields
+1 kg of extract.
+
+=== Quality and testing
+
+==== identity testing
+
+analytical procedures performed to confirm that a material is what it purports
+to be
+
+NOTE: Identity testing may include macroscopic examination, microscopic
+analysis, chromatographic fingerprinting, and spectroscopic methods.
+
+==== purity testing
+
+analytical procedures performed to determine the presence and amount of
+impurities or contaminants
+
+==== potency
+
+measure of the biological activity or strength of a phytomedicine, typically
+expressed relative to a reference standard
+
+==== fingerprint
+
+chromatographic or spectroscopic pattern that is characteristic of a particular
+plant material or extract
+
+NOTE: Fingerprints are used for identity confirmation and quality comparison.
+
+==== specification
+
+list of tests, references to analytical procedures, and appropriate acceptance
+criteria for a material
+
+[.source]
+<<ICHQ3r8>>
+
+=== Dosage forms
+
+==== oral liquid
+alt:[liquid for oral use]
+
+liquid preparation intended for oral administration
+
+==== tablet
+
+solid dosage form containing phytomedicine ingredients, usually prepared by
+compression
+
+==== capsule
+
+solid dosage form in which the phytomedicine ingredient is enclosed in a
+soluble container, typically made of gelatin or plant-derived materials
+
+==== topical preparation
+alt:[preparation for dermal use]
+
+preparation intended for application to the skin or mucous membranes
+
+==== powdered extract
+alt:[spray-dried extract]
+
+dry extract in powder form, typically produced by spray drying
+
+=== Biological and cultivation
+
+==== cultivation
+
+practice of growing medicinal plants under controlled or semi-controlled
+conditions
+
+==== wild collection
+alt:[wild harvesting]
+alt:[wild crafting]
+
+gathering of medicinal plants from their natural habitat
+
+NOTE: Wild collection requires sustainable practices to ensure species
+conservation.
+
+==== sustainable harvesting
+
+collection of plant material in a manner that ensures the long-term survival
+of the species and its ecosystem
+
+NOTE: Sustainable harvesting considers regeneration rates, ecological impact,
+and biodiversity conservation.
+
+==== Good Agricultural Practices
+alt:[GAP]
+
+standards and practices for the production of medicinal plants under
+controlled agricultural conditions
+
+NOTE: GAP covers site selection, propagation, cultivation, plant protection,
+harvesting, and primary processing.
+
+=== Regulatory and classification
+
+==== dietary supplement
+
+product intended to supplement the diet that contains one or more dietary
+ingredients, including vitamins, minerals, herbs, or other botanicals
+
+NOTE: Regulatory classification of phytomedicines as dietary supplements varies
+by jurisdiction.
+
+==== traditional herbal medicinal product
+alt:[THMP]
+
+medicinal product whose active ingredients are exclusively herbal substances
+or herbal preparations, intended and designed for use without the supervision
+of a medical practitioner
+
+NOTE: Traditional use of at least 30 years, including 15 years within the
+relevant jurisdiction, is typically required for THMP status.
+
+==== health claim
+
+statement that describes the relationship between a food or food component
+and a disease or health-related condition
+
+==== structure-function claim
+
+statement that describes the role of a nutrient or dietary ingredient intended
+to affect the normal structure or function of the human body
+
+[[table-preparations]]
+.Common herbal preparations and their characteristics
+[cols="25%,25%,50%"]
+|===
+| Preparation type | Solvent/Method | Characteristics
+
+| Tincture
+| Alcohol/water mixture, maceration
+| Liquid, typically 1:5 to 1:10 DER
+
+| Fluid extract
+| Alcohol/water mixture, percolation
+| Liquid, typically 1:1 DER
+
+| Dry extract
+| Various solvents, evaporation
+| Solid powder, high concentration
+
+| Soft extract
+| Various solvents, partial evaporation
+| Viscous, contains residual solvent
+
+| Essential oil
+| Steam distillation
+| Volatile, aromatic liquid
+
+| Expressed juice
+| Mechanical pressing
+| Fresh plant liquid
+|===

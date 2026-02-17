@@ -1,0 +1,257 @@
+# SIPM Standard Document Schema
+# YAML schema for validating SIPM standard documents
+
+$schema: https://json-schema.org/draft/2020-12/schema
+title: SIPM Standard Document
+description: Schema for validating SIPM standard documents in YAML/JSON format
+
+type: object
+required:
+  - metadata
+  - sections
+
+properties:
+  metadata:
+    type: object
+    required:
+      - docnumber
+      - title
+      - edition
+      - revdate
+      - copyright-year
+      - doctype
+      - technical-committee
+    properties:
+      docnumber:
+        type: string
+        pattern: "^\\d{4}$"
+        description: Four-digit document number (e.g., "0001")
+
+      partnumber:
+        type: integer
+        minimum: 1
+        default: 1
+        description: Part number for multi-part standards
+
+      title:
+        type: string
+        description: Main title of the document
+
+      title-intro:
+        type: string
+        description: Introductory title element
+
+      title-part:
+        type: string
+        description: Part title element
+
+      edition:
+        type: integer
+        minimum: 1
+        description: Edition number
+
+      revdate:
+        type: string
+        format: date
+        description: Revision date in YYYY-MM-DD format
+
+      copyright-year:
+        type: integer
+        description: Copyright year
+
+      language:
+        type: string
+        enum: [en, fr, de, es, zh, ja]
+        default: en
+        description: Document language code
+
+      doctype:
+        type: string
+        enum:
+          - international-standard
+          - technical-report
+          - technical-specification
+          - guidance-document
+        description: Document type
+
+      docstage:
+        type: integer
+        minimum: 10
+        maximum: 95
+        description: Document stage (ISO-style numbering)
+
+      docsubstage:
+        type: integer
+        minimum: 00
+        maximum: 99
+        description: Document substage
+
+      technical-committee:
+        type: object
+        required:
+          - number
+          - name
+        properties:
+          number:
+            type: integer
+            description: Technical committee number
+          name:
+            type: string
+            description: Technical committee name
+          subcommittee:
+            type: object
+            properties:
+              number:
+                type: integer
+              name:
+                type: string
+
+      library-ics:
+        type: string
+        description: ICS (International Classification for Standards) codes
+
+      keywords:
+        type: array
+        items:
+          type: string
+        description: Keywords for the document
+
+  sections:
+    type: object
+    description: Document sections structure
+    properties:
+      foreword:
+        type: object
+        properties:
+          file:
+            type: string
+            pattern: "^00-foreword\\.adoc$"
+          required:
+            type: boolean
+            default: true
+
+      introduction:
+        type: object
+        properties:
+          file:
+            type: string
+            pattern: "^00-introduction\\.adoc$"
+          required:
+            type: boolean
+            default: false
+
+      scope:
+        type: object
+        properties:
+          file:
+            type: string
+            pattern: "^01-scope\\.adoc$"
+          required:
+            type: boolean
+            default: true
+
+      normative-references:
+        type: object
+        properties:
+          file:
+            type: string
+            pattern: "^02-normref\\.adoc$"
+          required:
+            type: boolean
+            default: true
+
+      terms-and-definitions:
+        type: object
+        properties:
+          file:
+            type: string
+            pattern: "^03-terms\\.adoc$"
+          required:
+            type: boolean
+            default: true
+
+      technical-clauses:
+        type: array
+        description: Additional technical sections
+        items:
+          type: object
+          properties:
+            clause:
+              type: integer
+            title:
+              type: string
+            file:
+              type: string
+
+      annexes:
+        type: array
+        description: Informative or normative annexes
+        items:
+          type: object
+          properties:
+            letter:
+              type: string
+              pattern: "^[A-Z]$"
+            title:
+              type: string
+            normative:
+              type: boolean
+              default: false
+            file:
+              type: string
+
+      bibliography:
+        type: object
+        properties:
+          file:
+            type: string
+            pattern: "^b0-bibliography\\.adoc$"
+          required:
+            type: boolean
+            default: false
+
+  validation:
+    type: object
+    description: Validation rules
+    properties:
+      require-terms:
+        type: boolean
+        default: true
+        description: Require at least one term definition
+
+      require-normative-references:
+        type: boolean
+        default: true
+        description: Require normative references section
+
+      max-line-length:
+        type: integer
+        default: 80
+        description: Maximum line length in source files
+
+      required-references:
+        type: array
+        items:
+          type: string
+        description: Reference IDs that must be present
+
+# Example document structure
+example:
+  metadata:
+    docnumber: "0001"
+    title: "Terminology for Phytomedicine"
+    edition: 1
+    revdate: "2026-02-17"
+    copyright-year: 2026
+    doctype: international-standard
+    technical-committee:
+      number: 1
+      name: "Terminology and Nomenclature"
+    library-ics: "01.040.11"
+  sections:
+    scope:
+      file: "01-scope.adoc"
+    normative-references:
+      file: "02-normref.adoc"
+    terms-and-definitions:
+      file: "03-terms.adoc"

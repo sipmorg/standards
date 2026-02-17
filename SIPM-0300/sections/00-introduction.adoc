@@ -1,0 +1,22 @@
+[[intro]]
+== Introduction
+
+The quality and safety of phytomedicine products depend on reliable analytical
+methods for identity verification, purity assessment, and potency determination.
+Unlike conventional pharmaceuticals, phytomedicines present unique analytical
+challenges due to their complex chemical composition and natural variability.
+
+This document establishes general requirements for analytical methods used in
+the quality control of phytomedicine products. It provides a framework for
+method selection, validation, and application that ensures reliable and
+reproducible results across laboratories and jurisdictions.
+
+The standard addresses three fundamental aspects of phytomedicine analysis:
+
+* **Identity**: Confirming that the material is what it purports to be
+* **Purity**: Ensuring the material is free from unacceptable contamination
+* **Potency**: Determining the concentration of active or marker constituents
+
+This document is intended to be used in conjunction with specific analytical
+method standards in the SIPM-0300 series, which provide detailed procedures
+for particular tests and analytes.

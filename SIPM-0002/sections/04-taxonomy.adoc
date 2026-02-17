@@ -1,0 +1,90 @@
+[[taxonomy]]
+== Taxonomic classification
+
+=== General requirements
+
+The taxonomic classification of medicinal fungi shall follow the International
+Code of Nomenclature for algae, fungi, and plants (ICN).
+
+=== Taxonomic hierarchy
+
+Medicinal fungi shall be classified according to the following taxonomic
+hierarchy:
+
+* Kingdom
+* Phylum
+* Class
+* Order
+* Family
+* Genus
+* Species
+
+=== Scientific names
+
+==== Latin binomial
+
+The scientific name of a medicinal fungus shall be expressed as a Latin
+binomial consisting of genus name (capitalized) and species epithet
+(lowercase).
+
+[example]
+Ganoderma lucidum, Cordyceps sinensis, Lentinula edodes
+
+==== Author citation
+
+When first mention of a species is made in a document, the author citation
+shall be included.
+
+[example]
+Ganoderma lucidum (Curtis) P. Karst.
+
+==== Taxonomic authorities
+
+Taxonomic nomenclature shall be verified against recognized databases:
+
+* Index Fungorum
+* MycoBank
+* GBIF (Global Biodiversity Information Facility)
+
+=== Synonyms and deprecated names
+
+==== Synonym handling
+
+When a species has known synonyms, the currently accepted name shall be used
+as the primary identifier. Common synonyms may be listed for reference.
+
+==== Deprecated names
+
+Names that have been taxonomically rejected or superseded shall be marked as
+deprecated and shall not be used as primary identifiers.
+
+[[table-common-fungi]]
+.Common medicinal fungi: accepted names and synonyms
+[cols="40%,30%,30%"]
+|===
+| Accepted name | Common synonyms | Common name
+
+| Ganoderma lucidum
+| G. lucidum sensu stricto
+| Reishi, Lingzhi
+
+| Lentinula edodes
+| Lentinus edodes
+| Shiitake
+
+| Trametes versicolor
+| Coriolus versicolor, Polyporus versicolor
+| Turkey Tail, Yun Zhi
+
+| Cordyceps sinensis
+| Ophiocordyceps sinensis
+| Caterpillar fungus, Yartsa Gunbu
+
+| Inonotus obliquus
+| Fuscoporia obliqua
+| Chaga
+
+| Hericium erinaceus
+| Hydnum erinaceus
+| Lion's Mane, Yamabushitake
+|===

@@ -1,0 +1,97 @@
+[[terms]]
+== Terms and definitions
+
+For the purposes of this document, the following terms and definitions apply.
+Terms defined in SIPM-0001 also apply where relevant.
+
+=== clinical evidence
+
+information derived from clinical research that contributes to the assessment
+of safety and efficacy of a phytomedicine
+
+=== clinical trial
+alt:[interventional study]
+
+research study that prospectively assigns human participants to one or more
+interventions to evaluate the effects on health outcomes
+
+=== randomized controlled trial
+alt:[RCT]
+
+clinical trial in which participants are allocated to intervention groups by
+chance (randomization)
+
+=== observational study
+
+research study in which participants are observed and outcomes measured without
+assignment of interventions by the investigator
+
+=== systematic review
+
+review that uses systematic methods to identify, select, and critically
+appraise relevant research, and to collect and analyze data from included studies
+
+=== meta-analysis
+
+statistical analysis that combines the results of multiple scientific studies
+
+=== traditional use evidence
+
+documentation of the historical use of a phytomedicine over one or more
+generations within a specific cultural context
+
+=== well-established use
+
+regulatory concept referring to a medicinal product with recognized safety and
+efficacy based on at least 10 years of use in a specific jurisdiction
+
+=== efficacy
+
+ability of a phytomedicine to produce a beneficial therapeutic effect under
+controlled conditions
+
+=== effectiveness
+
+degree to which a phytomedicine produces a beneficial effect under real-world
+conditions
+
+=== safety profile
+
+comprehensive summary of known and potential adverse effects, contraindications,
+and drug interactions associated with a phytomedicine
+
+=== pharmacovigilance
+
+science and activities relating to the detection, assessment, understanding,
+and prevention of adverse effects or other drug-related problems
+
+=== investigational product
+
+phytomedicine being tested or used as a reference in a clinical trial
+
+[[table-study-types]]
+.Characteristics of common study designs
+[cols="25%,30%,45%"]
+|===
+| Study type | Key features | Strengths/limitations
+
+| Randomized controlled trial
+| Random allocation, control group, blinding
+| High internal validity; may have limited external validity
+
+| Non-randomized controlled trial
+| Control group without randomization
+| Practical for some settings; potential for confounding
+
+| Cohort study
+| Follows groups over time
+| Good for rare exposures; potential for confounding
+
+| Case-control study
+| Compares cases with controls
+| Good for rare outcomes; recall bias
+
+| Case series
+| Description of multiple cases
+| Hypothesis generation; no control group
+|===

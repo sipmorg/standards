@@ -1,0 +1,24 @@
+[[norm-refs]]
+[bibliography]
+== Normative references
+
+The following documents are referred to in the text in such a way that some or
+all of their content constitutes requirements of this document. For dated
+references, only the edition cited applies. For undated references, the latest
+edition of the referenced document (including any amendments) applies.
+
+* [[[ICHQ2R2,ICH Q2(R2) Validation of Analytical Procedures]]]
+
+* [[[ISO17025,ISO/IEC 17025:2017]]], General requirements for the competence of
+  testing and calibration laboratories
+
+* [[[ISO5725-1,ISO 5725-1:1994]]], Accuracy (trueness and precision) of
+  measurement methods and results -- Part 1: General principles and definitions
+
+* [[[EP10th,European Pharmacopoeia 10th Edition]]]
+
+* [[[USPNF,United States Pharmacopeia - National Formulary]]]
+
+* [[[WHOQCM,WHO Quality Control Methods for Medicinal Plant Materials]]]
+
+* [[[ICHQ3R8,ICH Q3(R8) Guideline for Elemental Impurities]]]

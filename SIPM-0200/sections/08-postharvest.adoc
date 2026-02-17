@@ -1,0 +1,63 @@
+[[postharvest]]
+== Post-harvest processing
+
+[[sec-primary-processing]]
+=== Primary processing operations
+
+==== Cleaning
+
+Harvested material shall be cleaned to remove:
+
+* Soil and extraneous matter
+* Damaged or diseased plant parts
+* Non-target plant species
+
+==== Drying
+
+Drying operations shall:
+
+* Use appropriate temperature for the species
+* Ensure adequate air circulation
+* Achieve target moisture content for storage stability
+* Be documented with temperature and duration records
+
+==== Cutting and size reduction
+
+When cutting or size reduction is performed:
+
+* Equipment shall be clean and appropriate for the material
+* Dust generation shall be controlled
+* Material identity shall be maintained throughout
+
+[[sec-packaging]]
+=== Packaging and labeling
+
+==== Container requirements
+
+Primary packaging shall:
+
+* Protect material from contamination
+* Preserve material quality during storage
+* Be appropriate for the material characteristics
+* Be traceable to batch and source
+
+==== Labeling requirements
+
+Each container shall be labeled with at minimum:
+
+* Plant name (scientific name and common name)
+* Plant part
+* Batch number
+* Date of processing
+* Net weight
+* Storage conditions
+
+[[sec-storage]]
+=== Storage
+
+Storage conditions shall be:
+
+* Appropriate for maintaining material quality
+* Protected from pests and contamination
+* Controlled for temperature and humidity where required
+* Documented with monitoring records

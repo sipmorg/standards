@@ -1,0 +1,32 @@
+= Terminology for Phytomedicine
+:docnumber: 0001
+:partnumber: 1
+:edition: 1
+:revdate: 2026-02-17
+:copyright-year: 2026
+:language: en
+:title-intro-en: SIPM Standards
+:title-main-en: Terminology for Phytomedicine
+:title-part-en: General vocabulary
+:doctype: international-standard
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 1
+:technical-committee: Terminology and Nomenclature
+:library-ics: 01.040.11;11.120
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normref.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-vocabulary.adoc[]
+
+include::sections/b0-bibliography.adoc[]

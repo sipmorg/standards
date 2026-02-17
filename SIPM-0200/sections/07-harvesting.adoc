@@ -1,0 +1,57 @@
+[[harvesting]]
+== Harvesting
+
+[[sec-harvest-timing]]
+=== Harvest timing
+
+==== Optimal harvest time
+
+Harvest timing shall be determined based on:
+
+* Phytochemical content of the target plant part
+* Stage of plant development
+* Time of day (for species where this affects quality)
+* Environmental conditions
+
+==== Documentation
+
+The rationale for harvest timing decisions shall be documented.
+
+[[sec-harvest-methods]]
+=== Harvest methods
+
+==== Personnel requirements
+
+Harvest personnel shall be trained in:
+
+* Correct plant part identification
+* Harvesting techniques
+* Hygiene requirements
+* Recognition of contamination or quality issues
+
+==== Equipment
+
+Harvest equipment shall be:
+
+* Clean and in good working condition
+* Constructed of materials that do not contaminate plant material
+* Regularly inspected and maintained
+
+[[sec-field-handling]]
+=== Field handling
+
+==== Contamination prevention
+
+Harvested material shall be protected from contamination during handling:
+
+* Clean containers shall be used
+* Contact with soil shall be minimized
+* Material shall not be placed directly on the ground
+
+==== Temperature management
+
+For temperature-sensitive materials:
+
+* Exposure to direct sunlight shall be minimized
+* Material shall be transported to processing area promptly
+* Temporary storage conditions shall be documented

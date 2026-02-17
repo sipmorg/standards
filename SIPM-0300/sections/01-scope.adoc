@@ -1,0 +1,25 @@
+[[scope]]
+== Scope
+
+This document specifies general requirements for analytical methods used in
+the quality control of phytomedicine products.
+
+It is applicable to:
+
+* Identity testing of plant materials and extracts
+* Purity testing for contaminants and impurities
+* Potency determination for active or marker constituents
+* Method validation and verification
+* Documentation and reporting of analytical results
+
+This document covers:
+
+* Herbal substances and preparations
+* Medicinal fungi materials and products
+* Finished phytomedicine products
+
+This document does not cover:
+
+* Specific analytical procedures for individual compounds or matrices
+* Microbiological testing methods
+* Clinical laboratory methods

@@ -1,0 +1,72 @@
+[[potency]]
+== Potency determination
+
+[[sec-potency-general]]
+=== General requirements
+
+Potency determination quantifies the concentration of active constituents or
+marker compounds in plant materials and preparations.
+
+[[sec-analyte-selection]]
+=== Analyte selection
+
+==== Active constituents
+
+When known active constituents are identified:
+
+* Quantification of active constituents is preferred
+* Multiple actives may be quantified when relevant to efficacy
+* Bioactive fractions may be quantified as a group
+
+==== Marker compounds
+
+When active constituents are not fully characterized:
+
+* Characteristic or analytical markers may be used
+* The relationship between markers and activity shall be documented
+* Selection of markers shall be scientifically justified
+
+[[sec-methods]]
+=== Quantitative methods
+
+==== Chromatographic methods
+
+Chromatographic methods for potency determination shall:
+
+* Be validated for specificity, accuracy, precision, linearity, and range
+* Use reference standards of known purity
+* Include system suitability tests
+
+==== Spectrophotometric methods
+
+Spectrophotometric methods may be used when:
+
+* Chromatographic methods are not practical
+* The analyte or analyte group has characteristic absorption
+* Interference from other components has been evaluated
+
+[[sec-specifications]]
+=== Specifications
+
+Acceptance criteria for potency shall be established based on:
+
+* Historical data for the species
+* Phytochemical variability
+* Clinical or traditional use information
+* Manufacturing requirements
+
+[[table-specification-example]]
+.Example specification format
+[cols="50%,50%"]
+|===
+| Parameter | Acceptance criteria
+
+| Marker compound A
+| NLT 2.0% and NMT 4.0% (dry basis)
+
+| Marker compound B
+| NLT 0.5% (dry basis)
+
+| Total phenolics (as gallic acid)
+| NLT 5.0% (dry basis)
+|===

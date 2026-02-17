@@ -1,0 +1,87 @@
+[[study-design]]
+== Study design considerations
+
+[[sec-product-characterization]]
+=== Product characterization
+
+==== Identity and quality
+
+The investigational phytomedicine product shall be fully characterized,
+including:
+
+* Botanical identity (species, plant part, geographic origin)
+* Manufacturing process and quality control
+* Phytochemical profile (marker compounds, batch-to-batch consistency)
+* Specifications and certificate of analysis
+
+NOTE: Poor product characterization is a common limitation of published
+phytomedicine clinical studies.
+
+==== Standardization
+
+When applicable, the study product shall be standardized to defined marker
+compounds or active constituents.
+
+[[sec-study-population]]
+=== Study population
+
+==== Participant selection
+
+The study population shall be defined by:
+
+* Inclusion criteria appropriate to the research question
+* Exclusion criteria that address safety concerns
+* Relevant demographic and clinical characteristics
+
+==== Sample size
+
+Sample size calculations shall be performed and documented, based on:
+
+* Expected effect size
+* Variability in primary outcome measures
+* Statistical power requirements
+* Significance level
+
+[[sec-outcome-measures]]
+=== Outcome measures
+
+==== Primary outcomes
+
+Primary outcomes shall:
+
+* Be clinically relevant to the indication
+* Be valid, reliable, and responsive to change
+* Be specified a priori in the study protocol
+
+==== Secondary outcomes
+
+Secondary outcomes may include:
+
+* Additional clinical measures
+* Quality of life assessments
+* Biomarkers
+* Safety outcomes
+
+[[sec-control-interventions]]
+=== Control interventions
+
+Control interventions may include:
+
+* Placebo (when ethically appropriate)
+* Active comparator (standard treatment)
+* No treatment (for pragmatic trials)
+* Dose comparison
+
+Placebo control shall match the investigational product in appearance, taste,
+and smell where possible.
+
+[[sec-study-duration]]
+=== Study duration
+
+Study duration shall be:
+
+* Appropriate to the indication and expected time to effect
+* Sufficient to detect both efficacy and safety signals
+* Justified in the study protocol
+
+For chronic conditions, long-term safety data (6+ months) is typically required.

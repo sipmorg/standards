@@ -1,0 +1,37 @@
+[[bib]]
+[bibliography]
+== Bibliography
+
+* [[[ISO3696,ISO 3696:1987]]], Water for analytical laboratory use -- Specification
+  and test methods
+
+* [[[ISO5725-1,ISO 5725-1:1994]]], Accuracy (trueness and precision) of
+  measurement methods and results -- Part 1: General principles and definitions
+
+* [[[ISO5725-2,ISO 5725-2:1994]]], Accuracy (trueness and precision) of
+  measurement methods and results -- Part 2: Basic method for the determination
+  of repeatability and reproducibility of a standard measurement method
+
+* [[[WHOQCM,WHO Quality Control Methods for Medicinal Plant Materials]]], World
+  Health Organization, Geneva, 1998
+
+* [[[WHOPHARM,WHO Monographs on Selected Medicinal Plants]]], World Health
+  Organization, Geneva, Vols. 1-4
+
+* [[[ESCP,European Scientific Cooperative on Phytotherapy (ESCOP) Monographs]]],
+  ESCOP, Exeter, UK
+
+* [[[BMABlumenthal,Blumenthal M.#]], _The ABC Clinical Guide to Herbs_.
+  American Botanical Council, Austin, TX, 2003
+
+* [[[Bruneton,Bruneton J.#]], _Pharmacognosy, Phytochemistry, Medicinal Plants_.
+  2nd ed. Lavoisier Publishing, Paris, 1999
+
+* [[[Evans,Evans W.C.#]], _Trease and Evans' Pharmacognosy_. 15th ed.
+  Saunders, Edinburgh, 2002
+
+* [[[Heinrich,Heinrich M.#]], _Fundamentals of Pharmacognosy and Phytotherapy_.
+  2nd ed. Churchill Livingstone, Edinburgh, 2012
+
+* [[[VanBreemen,Van Breemen R.B.#]], Developing standards for validating
+  botanical dietary supplements. _J. AOAC Int._ 2006, *89* (1) pp. 1-4
