@@ -3,13 +3,6 @@
 This repository contains the official standards, technical reports, and guidance
 documents published by the **Society for Integrative Phytomedicine (SIPM)**.
 
-## Purpose
-
-The SIPM Standards program develops and maintains consensus-based standards for
-phytomedicine, medicinal fungi, and related natural health products. Our
-standards support quality, safety, and efficacy throughout the supply chain,
-from agricultural cultivation to clinical application.
-
 ## Document Identifier System
 
 All SIPM documents follow the identifier format:
@@ -18,52 +11,173 @@ All SIPM documents follow the identifier format:
 SIPM {n}:{year}
 ```
 
-Where:
-
-- `{n}` is a four-digit document number
-- `{year}` is the year of publication
+- `{n}` is a four-digit document number (e.g., `0001`, `0200`)
+- `{year}` is the year of publication (e.g., `2026`)
 
 Example: `SIPM-0001:2026` refers to the first SIPM standard published in 2026.
 
 ## Number Blocks
 
-SIPM document numbers are organized into thematic blocks:
-
 | Block | Range | Category |
 |-------|-------|----------|
-| Terminology | 0001-0099 | Foundational terminology and vocabulary |
-| Management | 0100-0199 | Management systems and processes |
-| Quality | 0200-0299 | Quality specifications and practices |
-| Testing | 0300-0399 | Analytical methods and test procedures |
-| Clinical | 0400-0499 | Clinical evidence and protocols |
-| Governance | 0500-0599 | Governance, ethics, and compliance |
+| Foundation | 0001-0099 | Terminology, vocabulary, taxonomy |
+| Management | 0100-0199 | Management systems, organizational processes |
+| Quality | 0200-0299 | Quality specifications, agricultural practices |
+| Testing | 0300-0399 | Analytical methods, test procedures |
+| Clinical | 0400-0499 | Clinical evidence, therapeutic protocols |
+| Governance | 0500-0599 | Governance, ethics, regulatory compliance |
 
-## Document Types
+## Creating a New Standard
 
-SIPM publishes three types of documents:
+### Step 1: Choose a Document Number
 
-### Standards (SIPM {n}:{year})
+Select an available number from the appropriate block:
 
-Normative documents that specify requirements, guidelines, or characteristics
-for materials, processes, or outcomes. Compliance is expected for certification
-or regulatory purposes.
+```bash
+# Check existing standards
+ls -d SIPM-*/
+```
 
-### Technical Reports (SIPM TR {n}:{year})
+### Step 2: Copy the Template
 
-Informative documents that provide technical data, analysis, or guidance on
-specific topics. These do not establish mandatory requirements.
+```bash
+cp -r templates/standard-template SIPM-XXXX
+cd SIPM-XXXX
+```
 
-### Guidance Documents (SIPM GD {n}:{year})
+### Step 3: Update Document Attributes
 
-Advisory documents that offer recommendations and best practices. These support
-implementation of standards but do not establish binding requirements.
+Edit `document.adoc` and update the header:
+
+```asciidoc
+= Terminology for Phytomedicine
+:docnumber: 0001
+:partnumber: 1
+:edition: 1
+:revdate: 2026-02-17
+:copyright-year: 2026
+:language: en
+:title-intro-en: SIPM Standards
+:title-main-en: Terminology for Phytomedicine
+:title-part-en: General vocabulary
+:doctype: international-standard
+:docstage: 30
+:docsubstage: 00
+:technical-committee: Terminology and Nomenclature
+:library-ics: 01.040.11
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf
+```
+
+### Step 4: Write Content
+
+Create or edit section files in `sections/`:
+
+| File | Required | Description |
+|------|----------|-------------|
+| `00-foreword.adoc` | Yes | Standard SIPM boilerplate |
+| `00-introduction.adoc` | No | Background and context |
+| `01-scope.adoc` | Yes | What the document covers |
+| `02-normref.adoc` | Yes | Normative references |
+| `03-terms.adoc` | Yes* | Terms and definitions |
+| `04-*.adoc` | Varies | Technical content sections |
+| `b0-bibliography.adoc` | No | Informative references |
+
+*Required if defining terminology.
+
+### Step 5: Validate
+
+```bash
+# Check AsciiDoc syntax
+asciidoctor SIPM-XXXX/document.adoc
+
+# Build with Metanorma (if installed)
+metanorma SIPM-XXXX/document.adoc
+```
+
+### Step 6: Commit and Push
+
+```bash
+git add SIPM-XXXX/
+git commit -m "feat: add SIPM-XXXX - {Title}"
+git push origin main
+```
+
+The website (sipmorg.github.io) will automatically rebuild and deploy.
+
+## Document Stages
+
+| Stage | Name | Description |
+|-------|------|-------------|
+| 10 | NP | New work item proposal |
+| 20 | WD | Working draft |
+| 30 | CD | Committee draft |
+| 40 | DIS | Draft for consultation |
+| 50 | FDIS | Final draft |
+| 60 | IS | Published International Standard |
+
+Set `:docstage:` to control publication status.
+
+## AsciiDoc Quick Reference
+
+### Terminology Entry
+
+```asciidoc
+=== phytomedicine
+alt:[herbal medicine]
+deprecated:[phytopharmaceutical]
+
+Plant-based medicinal product used for therapeutic purposes.
+
+NOTE: This term encompasses both traditional and modern preparations.
+
+[example]
+Echinacea tincture is a common phytomedicine used for immune support.
+
+[.source]
+<<WHO-2019,definition 3.1>>
+```
+
+### Cross-References
+
+```asciidoc
+<<section-id>>           # Reference to section
+<<table-myx>>            # Reference to table
+term:[phytomedicine]     # Reference to defined term
+```
+
+### Tables
+
+```asciidoc
+[[table-extraction-methods]]
+.Extraction methods and their characteristics
+|===
+| Method | Solvent | Temperature
+
+| Maceration
+| Ethanol-water
+| Room temperature
+
+| Percolation
+| Ethanol-water
+| Room to 50°C
+|===
+```
+
+### Figures
+
+```asciidoc
+[[figure-supply-chain]]
+.Supply chain overview
+image::figures/supply-chain.png[Supply chain diagram]
+```
 
 ## Repository Structure
 
 ```
 standards/
 ├── README.md           # This file
-├── CLAUDE.md           # Development guidance
+├── CLAUDE.md           # AI development guidance
 ├── SIPM-0001/          # Terminology for Phytomedicine
 ├── SIPM-0002/          # Medicinal Fungi Taxonomy
 ├── SIPM-0200/          # Agricultural Practices
@@ -74,51 +188,26 @@ standards/
 └── docs/               # Additional documentation
 ```
 
-Each standard directory contains:
+## Website Integration
 
-- `document.adoc` - Main document file
-- `sections/` - Individual section files
-- Supporting assets (figures, tables, etc.)
+This repository integrates with the SIPM website (github.com/sipmorg/sipmorg.github.io):
 
-## Document Format
+1. Push changes to `main` branch
+2. Website CI checks out this repository
+3. `build-standards.js` converts AsciiDoc to JSON
+4. Website builds with the updated content
+5. Changes are deployed to GitHub Pages
 
-All SIPM documents are authored in AsciiDoc format (`.adoc`), following
-ISO-style conventions for structure and formatting. Documents are processed
-using the Metanorma toolchain to produce publication-ready outputs in multiple
-formats (HTML, PDF, DOC, XML).
+No manual website updates are required.
 
 ## Contributing
 
-We welcome contributions from subject matter experts, industry stakeholders,
-and the scientific community.
+1. Fork this repository
+2. Create a feature branch
+3. Make your changes following the guidelines above
+4. Submit a pull request
 
-### How to Contribute
-
-1. **Review existing standards** - Familiarize yourself with current documents
-   and their structure.
-
-2. **Submit a proposal** - Open an issue describing the new standard or
-   revision you propose.
-
-3. **Join a working group** - Contact standards@sipm.org to participate in
-   technical committees.
-
-4. **Submit pull requests** - For minor corrections or improvements, fork the
-   repository and submit a pull request.
-
-### Development Process
-
-1. **Proposal stage** - New work item proposal (NWIP) submitted and approved
-2. **Working draft** - Initial draft developed by working group
-3. **Committee draft** - Draft circulated for technical committee review
-4. **Draft International Standard** - Public consultation period
-5. **Final Draft** - Incorporation of comments and final edits
-6. **Publication** - Document published as official SIPM standard
-
-### Code of Conduct
-
-All contributors must adhere to our Code of Conduct, which promotes respectful,
-inclusive, and professional collaboration.
+For major changes, contact standards@sipm.org to join the relevant working group.
 
 ## License
 
