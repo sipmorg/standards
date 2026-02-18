@@ -26,22 +26,13 @@
     <Transition name="toc-expand">
       <div v-if="isExpanded" id="mobile-toc-content" class="mobile-toc-content">
         <nav class="mobile-toc-nav">
-          <ul class="mobile-toc-list">
-            <li
-              v-for="section in flatSections"
-              :key="section.id"
-              class="mobile-toc-item"
-              :class="{
-                'toc-active': activeSectionId === section.id,
-                'toc-level-2': section.level === 2,
-                'toc-level-3': section.level === 3
-              }"
-            >
-              <a :href="`#${section.id}`" @click="handleNavClick(section.id)">
-                {{ section.title }}
-              </a>
-            </li>
-          </ul>
+          <TocTree
+            :sections="sections"
+            :active-section-id="activeSectionId"
+            :expanded-sections="expandedSections"
+            @navigate="handleNavClick"
+            @toggle="toggleSection"
+          />
         </nav>
       </div>
     </Transition>
@@ -51,20 +42,13 @@
   <aside v-else class="desktop-toc glass">
     <h3>Contents</h3>
     <nav>
-      <ul class="toc-list">
-        <li
-          v-for="section in flatSections"
-          :key="section.id"
-          class="toc-item"
-          :class="{
-            'toc-active': activeSectionId === section.id,
-            'toc-level-2': section.level === 2,
-            'toc-level-3': section.level === 3
-          }"
-        >
-          <a :href="`#${section.id}`">{{ section.title }}</a>
-        </li>
-      </ul>
+      <TocTree
+        :sections="sections"
+        :active-section-id="activeSectionId"
+        :expanded-sections="expandedSections"
+        @navigate="handleNavClick"
+        @toggle="toggleSection"
+      />
     </nav>
     <div class="toc-progress">
       <div class="toc-progress-bar" :style="{ width: progressPercent + '%' }"></div>
@@ -73,7 +57,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch, defineComponent, h } from 'vue'
 
 const props = defineProps({
   sections: {
@@ -87,19 +71,20 @@ const isMobile = ref(false)
 const isExpanded = ref(false)
 const activeSectionId = ref('')
 const progressPercent = ref(0)
+const expandedSections = ref(new Set())
 
-// Flatten nested sections for easier iteration
+// Flatten sections for scroll spy
 const flatSections = computed(() => {
   const result = []
-  function flatten(items, level = 2) {
+  function flatten(items) {
     for (const item of items) {
       result.push({
         id: item.id,
         title: item.title,
-        level
+        level: item.level
       })
       if (item.children && item.children.length > 0) {
-        flatten(item.children, level + 1)
+        flatten(item.children)
       }
     }
   }
@@ -115,6 +100,17 @@ const currentSectionTitle = computed(() => {
   const section = flatSections.value.find(s => s.id === activeSectionId.value)
   return section?.title || 'Overview'
 })
+
+// Toggle section expand/collapse
+function toggleSection(sectionId) {
+  if (expandedSections.value.has(sectionId)) {
+    expandedSections.value.delete(sectionId)
+  } else {
+    expandedSections.value.add(sectionId)
+  }
+  // Force reactivity
+  expandedSections.value = new Set(expandedSections.value)
+}
 
 // Toggle mobile TOC
 function toggleExpand() {
@@ -137,10 +133,9 @@ function handleScroll() {
   if (flatSections.value.length === 0) return
 
   const scrollY = window.scrollY
-  const headerHeight = 80 // Approximate header height
-  const offset = headerHeight + 100 // Offset for better detection
+  const headerHeight = 80
+  const offset = headerHeight + 100
 
-  // Find the current section
   let currentId = flatSections.value[0]?.id
 
   for (const section of flatSections.value) {
@@ -157,10 +152,35 @@ function handleScroll() {
 
   activeSectionId.value = currentId
 
+  // Auto-expand parent sections when active section changes
+  expandParents(currentId)
+
   // Calculate progress
   const docHeight = document.documentElement.scrollHeight - window.innerHeight
   if (docHeight > 0) {
     progressPercent.value = Math.min(100, (scrollY / docHeight) * 100)
+  }
+}
+
+// Expand parent sections of active section
+function expandParents(sectionId) {
+  function findParents(items, parents = []) {
+    for (const item of items) {
+      if (item.id === sectionId) {
+        return parents
+      }
+      if (item.children && item.children.length > 0) {
+        const found = findParents(item.children, [...parents, item.id])
+        if (found) return found
+      }
+    }
+    return null
+  }
+
+  const parents = findParents(props.sections)
+  if (parents) {
+    parents.forEach(id => expandedSections.value.add(id))
+    expandedSections.value = new Set(expandedSections.value)
   }
 }
 
@@ -179,7 +199,15 @@ onMounted(() => {
   window.addEventListener('scroll', handleScroll, { passive: true })
   document.addEventListener('click', handleClickOutside)
 
-  // Initial scroll check
+  // Expand first level sections by default on desktop
+  if (!isMobile.value) {
+    props.sections.forEach(s => {
+      if (s.children && s.children.length > 0) {
+        expandedSections.value.add(s.id)
+      }
+    })
+  }
+
   setTimeout(handleScroll, 100)
 })
 
@@ -189,10 +217,90 @@ onUnmounted(() => {
   document.removeEventListener('click', handleClickOutside)
 })
 
-// Watch for sections changes
 watch(() => props.sections, () => {
   setTimeout(handleScroll, 100)
 }, { deep: true })
+
+// Recursive TOC Tree Component
+const TocTree = defineComponent({
+  name: 'TocTree',
+  props: {
+    sections: { type: Array, default: () => [] },
+    activeSectionId: { type: String, default: '' },
+    expandedSections: { type: Set, default: () => new Set() },
+    depth: { type: Number, default: 0 }
+  },
+  emits: ['navigate', 'toggle'],
+  setup(props, { emit }) {
+    return () => {
+      if (!props.sections || props.sections.length === 0) return null
+
+      return h('ul', {
+        class: ['toc-tree', `toc-depth-${props.depth}`]
+      }, props.sections.map(section => {
+        const hasChildren = section.children && section.children.length > 0
+        const isExpanded = props.expandedSections.has(section.id)
+        const isActive = props.activeSectionId === section.id
+        const level = section.level || 2
+
+        return h('li', {
+          class: [
+            'toc-node',
+            `toc-level-${level}`,
+            { 'toc-has-children': hasChildren },
+            { 'toc-expanded': isExpanded },
+            { 'toc-active': isActive }
+          ]
+        }, [
+          h('div', { class: 'toc-node-content' }, [
+            // Expand/collapse arrow
+            hasChildren
+              ? h('button', {
+                  class: ['toc-toggle', { 'toc-toggle-expanded': isExpanded }],
+                  onClick: (e) => {
+                    e.preventDefault()
+                    emit('toggle', section.id)
+                  },
+                  'aria-label': isExpanded ? 'Collapse' : 'Expand'
+                }, [
+                  h('svg', {
+                    viewBox: '0 0 24 24',
+                    fill: 'none',
+                    stroke: 'currentColor',
+                    'stroke-width': '2'
+                  }, [
+                    h('path', { d: 'm9 18 6-6-6-6' })
+                  ])
+                ])
+              : h('span', { class: 'toc-spacer' }),
+
+            // Section link
+            h('a', {
+              href: `#${section.id}`,
+              onClick: (e) => {
+                e.preventDefault()
+                emit('navigate', section.id)
+              },
+              class: { 'toc-link-active': isActive }
+            }, section.title)
+          ]),
+
+          // Children
+          hasChildren && isExpanded
+            ? h(TocTree, {
+                sections: section.children,
+                activeSectionId: props.activeSectionId,
+                expandedSections: props.expandedSections,
+                depth: props.depth + 1,
+                onNavigate: (id) => emit('navigate', id),
+                onToggle: (id) => emit('toggle', id)
+              })
+            : null
+        ])
+      }))
+    }
+  }
+})
 </script>
 
 <style scoped>
@@ -267,44 +375,6 @@ watch(() => props.sections, () => {
   padding: var(--spacing-sm) 0;
 }
 
-.mobile-toc-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.mobile-toc-item {
-  margin: 0;
-}
-
-.mobile-toc-item a {
-  display: block;
-  padding: var(--spacing-sm) var(--spacing-md);
-  font-size: var(--font-size-sm);
-  color: var(--color-text);
-  text-decoration: none;
-  transition: all var(--transition-fast);
-  border-left: 3px solid transparent;
-}
-
-.mobile-toc-item.toc-level-3 a {
-  padding-left: var(--spacing-xl);
-  font-size: var(--font-size-xs);
-  color: var(--color-text-light);
-}
-
-.mobile-toc-item a:hover {
-  background: var(--color-background);
-  color: var(--color-primary);
-}
-
-.mobile-toc-item.toc-active a {
-  background: rgba(59, 126, 128, 0.08);
-  color: var(--color-primary);
-  border-left-color: var(--color-accent);
-  font-weight: var(--font-weight-medium);
-}
-
 /* Desktop TOC */
 .desktop-toc {
   padding: var(--spacing-lg);
@@ -325,45 +395,113 @@ watch(() => props.sections, () => {
   margin: 0 0 var(--spacing-md);
 }
 
-.toc-list {
+/* TOC Tree Styles */
+.toc-tree {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.toc-item {
-  margin-bottom: var(--spacing-xs);
+.toc-depth-0 {
+  padding: 0;
 }
 
-.toc-item a {
+.toc-depth-1,
+.toc-depth-2 {
+  padding-left: var(--spacing-md);
+}
+
+.toc-node {
+  margin: 0;
+}
+
+.toc-node-content {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.toc-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-light);
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+  border-radius: var(--radius-sm);
+}
+
+.toc-toggle:hover {
+  background: var(--color-background);
+  color: var(--color-primary);
+}
+
+.toc-toggle svg {
+  width: 14px;
+  height: 14px;
+  transition: transform var(--transition-fast);
+}
+
+.toc-toggle-expanded svg {
+  transform: rotate(90deg);
+}
+
+.toc-spacer {
+  width: 20px;
+  flex-shrink: 0;
+}
+
+.toc-node-content a {
+  flex: 1;
   display: block;
+  padding: var(--spacing-xs) var(--spacing-sm);
   font-size: var(--font-size-sm);
   color: var(--color-text);
   text-decoration: none;
   transition: all var(--transition-fast);
-  padding: var(--spacing-xs) var(--spacing-sm);
   border-left: 2px solid transparent;
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.toc-item.toc-level-3 a {
+/* Level-specific styles */
+.toc-level-2 > .toc-node-content a {
+  font-weight: var(--font-weight-medium);
+}
+
+.toc-level-3 > .toc-node-content a {
   font-size: var(--font-size-xs);
   color: var(--color-text-light);
-  padding-left: var(--spacing-md);
+  padding-left: var(--spacing-sm);
 }
 
-.toc-item a:hover {
+.toc-level-4 > .toc-node-content a {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-light);
+  opacity: 0.8;
+}
+
+.toc-node-content a:hover {
   color: var(--color-primary);
   background: var(--color-background);
 }
 
-.toc-item.toc-active a {
+.toc-node.toc-active > .toc-node-content a {
   color: var(--color-primary);
   border-left-color: var(--color-accent);
-  background: rgba(59, 126, 128, 0.05);
+  background: rgba(59, 126, 128, 0.08);
   font-weight: var(--font-weight-medium);
 }
 
+/* Progress bar */
 .toc-progress {
   margin-top: var(--spacing-lg);
   padding-top: var(--spacing-md);
@@ -393,5 +531,30 @@ watch(() => props.sections, () => {
 .toc-expand-leave-from {
   opacity: 1;
   max-height: 60vh;
+}
+
+/* Mobile adjustments */
+@media (max-width: 1024px) {
+  .toc-node-content a {
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-left: 3px solid transparent;
+  }
+
+  .toc-level-3 > .toc-node-content a {
+    padding-left: var(--spacing-xl);
+  }
+
+  .toc-level-4 > .toc-node-content a {
+    padding-left: var(--spacing-2xl);
+  }
+
+  .toc-toggle {
+    width: 24px;
+    height: 24px;
+  }
+
+  .toc-spacer {
+    width: 24px;
+  }
 }
 </style>
