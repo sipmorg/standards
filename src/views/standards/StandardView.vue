@@ -14,37 +14,6 @@
       </div>
 
       <article v-else-if="standard" class="standard">
-        <header class="standard-header">
-          <div class="standard-meta glass">
-            <div class="meta-item">
-              <span class="meta-label">Document Number</span>
-              <span class="meta-value">{{ standard.id }}</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Edition</span>
-              <span class="meta-value">{{ standard.attributes?.edition || '1.0' }}</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Date</span>
-              <span class="meta-value">{{ formatDate(standard.attributes?.revdate) }}</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Status</span>
-              <Badge :variant="statusVariant">{{ statusText }}</Badge>
-            </div>
-          </div>
-
-          <h1 class="standard-title">{{ standard.title }}</h1>
-
-          <div v-if="standard.attributes?.workgroup" class="standard-workgroup">
-            <span>Developed by:</span> {{ standard.attributes.workgroup }}
-          </div>
-        </header>
-
-        <div class="standard-layout">
-          <div class="standard-content" v-html="standard.html"></div>
-        </div>
-
         <!-- TOC positioned via CSS based on viewport -->
         <TableOfContents
           v-if="standard.toc && standard.toc.length > 0"
@@ -52,16 +21,48 @@
           class="standard-toc-wrapper"
         />
 
-        <footer class="standard-footer">
-          <div class="footer-actions">
-            <GradientButton variant="gold" @click="downloadPdf">
-              Download PDF
-            </GradientButton>
-            <GradientButton variant="outline" @click="viewOnGithub">
-              View on GitHub
-            </GradientButton>
-          </div>
-        </footer>
+        <!-- Main content wrapper - gets margin on desktop to clear TOC -->
+        <div class="standard-body">
+          <header class="standard-header">
+            <div class="standard-meta glass">
+              <div class="meta-item">
+                <span class="meta-label">Document Number</span>
+                <span class="meta-value">{{ standard.id }}</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Edition</span>
+                <span class="meta-value">{{ standard.attributes?.edition || '1.0' }}</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Date</span>
+                <span class="meta-value">{{ formatDate(standard.attributes?.revdate) }}</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Status</span>
+                <Badge :variant="statusVariant">{{ statusText }}</Badge>
+              </div>
+            </div>
+
+            <h1 class="standard-title">{{ standard.title }}</h1>
+
+            <div v-if="standard.attributes?.workgroup" class="standard-workgroup">
+              <span>Developed by:</span> {{ standard.attributes.workgroup }}
+            </div>
+          </header>
+
+          <div class="standard-content" v-html="standard.html"></div>
+
+          <footer class="standard-footer">
+            <div class="footer-actions">
+              <GradientButton variant="gold" @click="downloadPdf">
+                Download PDF
+              </GradientButton>
+              <GradientButton variant="outline" @click="viewOnGithub">
+                View on GitHub
+              </GradientButton>
+            </div>
+          </footer>
+        </div>
       </article>
 
       <div v-else class="error-state glass">
@@ -156,6 +157,11 @@ useSeo({
   padding: var(--spacing-xl) 0 var(--spacing-3xl);
 }
 
+/* Override container-narrow for standards - need more width for TOC */
+.standard-page :deep(.container-narrow) {
+  max-width: var(--content-max-width);
+}
+
 .loading-state,
 .error-state {
   text-align: center;
@@ -223,10 +229,8 @@ useSeo({
   font-weight: var(--font-weight-medium);
 }
 
-.standard-layout {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--spacing-xl);
+.standard-body {
+  max-width: 800px;
 }
 
 .standard-content {
@@ -234,19 +238,19 @@ useSeo({
   min-width: 0; /* Prevent overflow */
 }
 
-/* Desktop: Position TOC as sidebar */
+/* Desktop: Position TOC as fixed sidebar, content has margin */
 @media (min-width: 1025px) {
   .standard-page :deep(.standard-toc-wrapper) {
     position: fixed;
     top: calc(var(--header-height) + var(--spacing-xl));
     left: max(calc((100vw - 1200px) / 2 + var(--spacing-lg)), var(--spacing-lg));
-    width: 250px;
+    width: 240px;
     max-height: calc(100vh - var(--header-height) - var(--spacing-2xl));
     overflow-y: auto;
   }
 
-  .standard-layout {
-    margin-left: calc(250px + var(--spacing-xl));
+  .standard-body {
+    margin-left: calc(240px + var(--spacing-xl));
   }
 }
 
