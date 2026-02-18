@@ -2,16 +2,59 @@
 [bibliography]
 == Bibliography
 
-* [[[CONSORT2010,Schulz K.F.#]], CONSORT 2010 Statement: Updated guidelines for
-  reporting parallel group randomized trials. _BMJ_ 2010, *340*, c332
+* [[[CONSORT2010,Schulz K.F. et al.]]], CONSORT 2010 Statement: Updated
+  guidelines for reporting parallel group randomized trials. _BMJ_ 2010,
+  *340*, c332. doi:10.1136/bmj.c332
 
-* [[[GRADEhandbook,Schunemann H.J.#]], _GRADE Handbook_. Cochrane, 2013
+* [[[CONSORTHerbal,Gagnier J.J. et al.]]], Reporting randomized, controlled
+  trials of herbal interventions: an elaborated CONSORT Statement.
+  _Ann. Intern. Med._ 2006, *144*(5) pp. 364-367.
+  doi:10.7326/0003-4819-144-5-200603070-00013
 
-* [[[FWHO2000,WHO General Guidelines for Methodologies on Research and
+* [[[CONSORTCHM2017,Cheng C.W. et al.]]], CONSORT Extension for Chinese Herbal
+  Medicine Formulas 2017: Recommendations, Explanation, and Elaboration.
+  _Ann. Intern. Med._ 2017, *167*(2) pp. 112-121.
+  doi:10.7326/M16-2977
+
+* [[[GRADEhandbook,Schunemann H.J. et al.]]], _GRADE Handbook_. Cochrane, 2013
+
+* [[[WHO2000,WHO General Guidelines for Methodologies on Research and
   Evaluation of Traditional Medicine]]], World Health Organization, Geneva, 2000
 
-* [[[EichEich D.#]], Clinical trials in phytomedicine: Challenges and
-  opportunities. _Phytomedicine_ 2015, *22* (12) pp. 1061-1065
+* [[[WHO2025,Mhando L. et al.]]], Pharmacovigilance and herbal medicines safety:
+  A cross-sectional study of healthcare professionals' knowledge, attitudes,
+  and practices. _Front. Pharmacol._ 2025, *16* p. 12860113.
+  doi:10.3389/fphar.2025.12860113
 
-* [[[GagnierGagnier J.J.#]], Improving the quality of reporting of randomized
-  controlled trials in phytomedicine. _Phytomedicine_ 2006, *13* (4) pp. 274-282
+* [[[Kongkaew2024,Kongkaew C. & Phan T.H.D.]]], Estimating adverse events
+  associated with herbal medicines using pharmacovigilance databases:
+  Systematic review and meta-analysis. _JMIR Public Health_ 2024, *12* p. e63808.
+  doi:10.2196/63808
+
+* [[[Bhatt2025,Bhatt A. et al.]]], Herb-drug interactions in oncology:
+  Pharmacodynamic and pharmacokinetic perspectives. _Front. Pharmacol._ 2025,
+  *16* p. 12232703. doi:10.3389/fphar.2025.12232703
+
+* [[[Sherman2023,Sherman R.E. et al.]]], Real-world evidence: What is it and
+  what can it tell us? _N. Engl. J. Med._ 2023, *375*(23) pp. 2293-2297.
+  doi:10.1056/NEJMsb1609216
+
+* [[[Santos2025,Santos J. et al.]]], Signals of adverse reactions to herbal
+  medicines: A systematic review. _Drug Saf._ 2025, *48*(7) pp. 653-672.
+  doi:10.1007/s40264-025-01580-3
+
+* [[[Fasinu2025,Fasinu P.S. et al.]]], Herb-drug interactions: A critical
+  exploration in modern healthcare. _J. Med. Nat. Prod._ 2025, *4*(1) p. 100014.
+  doi:10.53941/jmnp.2025.100014
+
+* [[[ICHGCP,ICH E6(R2) Good Clinical Practice]]], International Council for
+  Harmonisation of Technical Requirements for Pharmaceuticals for Human Use,
+  2016
+
+* [[[Eich2015,Eich D. et al.]]], Clinical trials in phytomedicine: Challenges
+  and opportunities. _Phytomedicine_ 2015, *22*(12) pp. 1061-1065.
+  doi:10.1016/j.phymed.2015.08.007
+
+* [[[FWHO2000,WHO Guidelines on Developing Consumer Information on Proper Use
+  of Traditional, Complementary and Alternative Medicine]]], World Health
+  Organization, Geneva, 2000

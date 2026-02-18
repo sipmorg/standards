@@ -17,6 +17,61 @@ Harvest timing shall be determined based on:
 
 The rationale for harvest timing decisions shall be documented.
 
+[[table-harvest-timing]]
+.Species-specific harvest timing for optimal phytochemical content
+[cols="30%,30%,40%"]
+|===
+| Species | Plant part | Optimal harvest timing
+
+| _Echinacea purpurea_
+| Roots
+| Late autumn (after first frost) or early spring of second year;
+  alkamide content peaks at 120-150 days <<Moghith2024>>
+
+| _Echinacea purpurea_
+| Aerial parts
+| At full bloom (60-90 days); cichoric acid peaks at flowering
+  <<Stuart2004>>
+
+| _Withania somnifera_
+| Roots
+| 150-180 days after sowing; at plant maturity when leaves yellow
+  <<Kumar2025>>
+
+| _Panax ginseng_
+| Roots
+| 4-6 years (cultivated); ginsenoside profile stable after year 4
+  <<Kim2023>>
+
+| _Hypericum perforatum_
+| Flowering tops
+| At full bloom (early flowering stage); hypericin peaks at bud
+  break through full flower <<Frontiers2022>>
+
+| _Silybum marianum_
+| Seeds (achenes)
+| When seed heads turn brown; 100-140 days after sowing
+  <<Karkanis2011>>
+|===
+
+==== Time of day considerations
+
+For species where phytochemical content varies diurnally:
+
+* _Hypericum perforatum_: Harvest in late morning after dew has dried;
+  hypericin content may be affected by light exposure <<Kwiecien2021>>
+* _Echinacea purpurea_: Aerial parts harvested mid-morning to afternoon;
+  avoid early morning when moisture is high
+
+==== Environmental factors
+
+Environmental conditions at harvest shall be documented:
+
+* Temperature at time of harvest
+* Recent precipitation (within 48 hours)
+* General weather conditions
+* Time of day
+
 [[sec-harvest-methods]]
 === Harvest methods
 

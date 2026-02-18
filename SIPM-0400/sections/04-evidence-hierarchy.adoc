@@ -27,10 +27,15 @@ evidence types.
 | Controlled studies without randomization, cohort studies
 
 | Level IV
+| Real-world evidence (RWE)
+| Data from routine clinical practice, registries, electronic health records,
+post-market surveillance <<Sherman2023>>
+
+| Level V
 | Case series and case reports
 | Uncontrolled studies, case series, case reports
 
-| Level V
+| Level VI
 | Traditional use evidence
 | Documented historical use, ethnobotanical records, traditional knowledge
 |===
@@ -60,3 +65,27 @@ Traditional use evidence may be considered as supporting evidence when:
 NOTE: Traditional use evidence alone is generally insufficient to support
 efficacy claims in most regulatory jurisdictions, but may support safety
 and guide clinical research design.
+
+[[sec-real-world-evidence]]
+=== Real-world evidence
+
+Real-world evidence (RWE) derived from routine clinical practice shall be
+considered as complementary to randomized controlled trial data, particularly
+for:
+
+* Safety signal detection in diverse populations
+* Long-term effectiveness assessment
+* Drug-herb interaction monitoring in clinical settings
+* Rare adverse event detection
+
+Sources of real-world evidence include:
+
+* Electronic health record (EHR) databases
+* Disease and product registries
+* Pharmacy dispensing databases
+* Health insurance claims data
+* Post-market surveillance programs
+
+NOTE: Real-world evidence requires careful methodological consideration to
+address confounding and selection bias. Regulatory acceptance of RWE varies
+by jurisdiction <<Sherman2023>>.

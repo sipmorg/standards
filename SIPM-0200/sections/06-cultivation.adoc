@@ -66,3 +66,150 @@ Records shall be maintained throughout the cultivation period, including:
 * Irrigation and fertilization
 * Pest and disease observations and treatments
 * Any deviation from standard protocols
+
+[[sec-species-parameters]]
+=== Species-specific cultivation parameters
+
+This clause provides evidence-based cultivation parameters for key medicinal
+plant species. These parameters shall be used as guidelines; local adaptation
+based on cultivar, climate, and soil conditions may be necessary.
+
+NOTE: The parameters below are derived from peer-reviewed research and
+pharmacopoeial standards. Citations refer to the bibliography.
+
+[[table-echinacea-params]]
+.Cultivation parameters for _Echinacea purpurea_ (L.) Moench
+[cols="30%,35%,35%"]
+|===
+| Parameter | Specification | Evidence
+
+| Soil pH | 6.0-7.0 | <<USDA2024>>
+| Soil type | Well-drained, sandy loam to loam | <<BIN2020>>
+| Optimal temperature (growth) | 18-24 deg C | <<USDA2024>>
+| Optimal temperature (germination) | 20-25 deg C | <<BIN2020>>
+| Plant density | 15-25 plants/m^2^ | <<Moghith2024>>
+| Row spacing | 45-60 cm | <<BIN2020>>
+| Days to harvest (roots) | 120-150 days (first year) | <<WHO2017>>
+| Days to harvest (aerial parts) | At full bloom (60-90 days) | <<Stuart2004>>
+| Total alkamides (root) | ≥0.5% dry weight | <<EP11th>>
+| Cichoric acid (aerial) | ≥1.0% dry weight | <<EP11th>>
+| Light requirement | Full sun to partial shade | <<USDA2024>>
+| Water requirement | Moderate; drought tolerant once established | <<BIN2020>>
+|===
+
+[[table-ashwagandha-params]]
+.Cultivation parameters for _Withania somnifera_ (L.) Dunal (Ashwagandha)
+[cols="30%,35%,35%"]
+|===
+| Parameter | Specification | Evidence
+
+| Soil pH | 7.5-8.0 | <<Kumar2025>>
+| Soil type | Well-drained, sandy loam; low fertility | <<Kumar2025>>
+| Optimal temperature (growth) | 20-35 deg C | <<Kumar2025>>
+| Optimal temperature (germination) | 25-30 deg C | <<Kwiecien2026>>
+| Plant density | 10-15 plants/m^2^ | <<CIMAP2024>>
+| Row spacing | 45-60 cm | <<CIMAP2024>>
+| Days to harvest (roots) | 150-180 days | <<Kumar2025>>
+| Total withanolides (root) | ≥0.5% dry weight | <<IP2022>>
+| Withaferin A (root) | ≥0.05% dry weight | <<IP2022>>
+| Light requirement | Full sun | <<Kumar2025>>
+| Water requirement | Low; drought tolerant | <<Kumar2025>>
+| Altitude range | 600-1200 m optimal | <<Kumar2025>>
+|===
+
+[[table-ginseng-params]]
+.Cultivation parameters for _Panax ginseng_ C.A. Meyer (Asian Ginseng)
+[cols="30%,35%,35%"]
+|===
+| Parameter | Specification | Evidence
+
+| Soil pH | 5.0-5.5 | <<Kim2023>>
+| Soil type | Well-drained, high organic matter; loam | <<Auburn2020>>
+| Optimal temperature (growth) | 15-20 deg C | <<Kim2023>>
+| Shade requirement | 70-80% shade (artificial or natural canopy) | <<Auburn2020>>
+| Plant density | 15-25 plants/m^2^ | <<Auburn2020>>
+| Row spacing | 15-20 cm (dense planting) | <<Kim2023>>
+| Years to harvest (cultivated) | 4-6 years | <<Kim2023>>
+| Years to harvest (wild-simulated) | 7-15 years | <<Auburn2020>>
+| Total ginsenosides (root) | ≥2.0% dry weight | <<EP11th>>
+| Light requirement | Heavy shade (70-80%) | <<Auburn2020>>
+| Water requirement | Consistent moisture; well-drained | <<Kim2023>>
+| Soil organic matter | ≥3% | <<Kim2023>>
+|===
+
+[[table-hypericum-params]]
+.Cultivation parameters for _Hypericum perforatum_ L. (St. John's Wort)
+[cols="30%,35%,35%"]
+|===
+| Parameter | Specification | Evidence
+
+| Soil pH | 5.5-7.0 | <<Kwiecien2021>>
+| Soil type | Well-drained, sandy to loamy | <<Kwiecien2021>>
+| Optimal temperature (growth) | 15-25 deg C | <<Frontiers2022>>
+| Plant density | 10-16 plants/m^2^ | <<Kwiecien2021>>
+| Row spacing | 30-45 cm | <<Kwiecien2021>>
+| Days to harvest (flowering tops) | 60-90 days (at full bloom) | <<EP11th>>
+| Harvest frequency | 2-3 harvests per season | <<Kwiecien2021>>
+| Total hypericins (flowering top) | ≥0.08% dry weight | <<EP11th>>
+| Hyperforin (flowering top) | ≥1.0% dry weight | <<EP11th>>
+| Light requirement | Full sun | <<Kwiecien2021>>
+| Water requirement | Moderate | <<Frontiers2022>>
+|===
+
+[[table-milkthistle-params]]
+.Cultivation parameters for _Silybum marianum_ (L.) Gaertn. (Milk Thistle)
+[cols="30%,35%,35%"]
+|===
+| Parameter | Specification | Evidence
+
+| Soil pH | 6.0-8.0 | <<Karkanis2011>>
+| Soil type | Well-drained; adaptable to various soils | <<Karkanis2011>>
+| Optimal temperature (growth) | 15-25 deg C | <<Marceddu2022>>
+| Plant density | 8-12 plants/m^2^ | <<Karkanis2011>>
+| Row spacing | 40-75 cm | <<Karkanis2011>>
+| Plant spacing (in-row) | 20-30 cm | <<Karkanis2011>>
+| Days to harvest (seeds) | 100-140 days | <<Karkanis2011>>
+| Silymarin content (seed) | ≥1.5% dry weight | <<EP11th>>
+| Light requirement | Full sun | <<Karkanis2011>>
+| Water requirement | Low to moderate; drought tolerant | <<Marceddu2022>>
+|===
+
+[[sec-heavy-metals]]
+=== Heavy metal management
+
+==== Soil testing requirements
+
+Prior to cultivation, soil shall be tested for heavy metal contamination.
+Maximum allowable limits in soil (mg/kg dry weight) are:
+
+[[table-soil-metal-limits]]
+.Maximum heavy metal limits in cultivation soil
+[cols="50%,50%"]
+|===
+| Heavy metal | Maximum limit (mg/kg)
+
+| Cadmium (Cd) | 1.0
+| Lead (Pb) | 100
+| Mercury (Hg) | 1.0
+| Arsenic (As) | 10
+| Copper (Cu) | 100
+| Zinc (Zn) | 300
+|===
+
+NOTE: These limits are based on international guidelines for agricultural
+soil quality <<WHO2017>>. Some medicinal plants are known hyperaccumulators
+of certain metals and may require more stringent limits.
+
+==== Transfer factors
+
+Some medicinal plants accumulate heavy metals at higher rates than others.
+Species with documented accumulation concerns include:
+
+* _Hypericum perforatum_: Accumulates Mn and Zn; levels decrease with
+  increasing soil pH <<Kwiecien2021>>
+* _Withania somnifera_: Moderate accumulator; soil pH affects metal uptake
+  <<Kumar2025>>
+
+When cultivating these species, additional soil testing and plant tissue
+analysis shall be conducted to ensure compliance with finished product limits
+(see SIPM-0300).

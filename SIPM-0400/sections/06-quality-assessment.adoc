@@ -45,3 +45,115 @@ To support quality assessment, clinical studies shall be:
 * Conducted in accordance with Good Clinical Practice (GCP)
 * Reported completely and transparently
 * Made available through open access when possible
+
+[[sec-pharmacovigilance]]
+=== Pharmacovigilance requirements
+
+Adverse event monitoring for phytomedicines shall be conducted according to
+the requirements specified in this clause.
+
+NOTE: The World Health Organization recommends integrating safety monitoring
+of herbal medicines into existing pharmacovigilance systems <<WHO2025>>.
+
+==== Spontaneous reporting
+
+Spontaneous reporting systems shall capture adverse events associated with
+phytomedicine use:
+
+* All serious adverse events (death, life-threatening, hospitalization,
+  disability, congenital anomaly) shall be reported within 15 calendar days
+* Non-serious adverse events shall be reported according to local regulatory
+  requirements
+* Reports shall include: patient demographics, suspect product (with batch
+  number and botanical identification), adverse event description, outcome,
+  and concomitant medications
+
+==== Signal detection
+
+Signal detection for phytomedicine safety shall employ validated
+pharmacovigilance methods:
+
+[[table-signal-methods]]
+.Signal detection methods for phytomedicine pharmacovigilance
+[cols="40%,60%"]
+|===
+| Method | Description
+
+| Proportional Reporting Ratio (PRR)
+| Compares proportion of specific adverse event for a product vs. all other
+products
+
+| Reporting Odds Ratio (ROR)
+| Measures association between product and adverse event using case-control
+approach
+
+| Multi-item Gamma Poisson Shrinker (MGPS)
+| Bayesian data mining algorithm for detecting signals in large databases
+
+| Disproportionality analysis
+| Statistical comparison of observed vs. expected reporting rates
+|===
+
+==== Causality assessment
+
+Causality assessment for adverse events associated with phytomedicines shall
+use standardized algorithms:
+
+* WHO-UMC causality categories (certain, probable, possible, unlikely,
+  conditional, unassessable)
+* Naranjo algorithm (definite, probable, possible, doubtful)
+
+NOTE: Causality assessment for herbal medicines presents unique challenges
+due to variability in product composition and limited documentation of
+concomitant use <<Kongkaew2024>>.
+
+==== Periodic safety reporting
+
+Marketing authorization holders for phytomedicines shall submit:
+
+* Periodic Safety Update Reports (PSURs) at intervals specified by regulatory
+  authorities
+* Risk Management Plans (RMPs) for products with identified safety concerns
+* Annual safety reports for products marketed under traditional use or
+  dietary supplement regulations
+
+[[sec-herb-drug-interactions]]
+=== Herb-drug interaction documentation
+
+==== Mechanism-based assessment
+
+Herb-drug interactions shall be evaluated based on pharmacokinetic and
+pharmacodynamic mechanisms:
+
+[[table-hdi-mechanisms]]
+.Common herb-drug interaction mechanisms
+[cols="30%,70%"]
+|===
+| Mechanism | Examples and clinical significance
+
+| Cytochrome P450 inhibition
+| _Grapefruit juice_ (CYP3A4); _Hypericum perforatum_ (CYP3A4 induction);
+reduced drug levels or increased toxicity
+
+| P-glycoprotein transport
+| _Panax ginseng_ (P-gp inhibition); altered drug absorption and distribution
+
+| Pharmacodynamic synergism
+| Anticoagulant herbs + warfarin (increased bleeding risk); sedative herbs +
+CNS depressants (enhanced sedation)
+
+| Pharmacodynamic antagonism
+| Stimulant herbs + antihypertensives (reduced efficacy)
+|===
+
+==== Documentation requirements
+
+Clinical studies of phytomedicines shall document:
+
+* Potential herb-drug interactions based on known mechanisms
+* Concomitant medications used by study participants
+* Observed interactions during the study
+* Post-study monitoring for delayed interactions
+
+[.source]
+<<Bhatt2025>> (systematic review of herb-drug interaction mechanisms)

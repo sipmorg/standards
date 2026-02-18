@@ -45,6 +45,7 @@ Taxonomic nomenclature shall be verified against recognized databases:
 * Index Fungorum
 * MycoBank
 * GBIF (Global Biodiversity Information Facility)
+* UNITE database for molecular identification
 
 === Synonyms and deprecated names
 
@@ -58,33 +59,144 @@ as the primary identifier. Common synonyms may be listed for reference.
 Names that have been taxonomically rejected or superseded shall be marked as
 deprecated and shall not be used as primary identifiers.
 
+[[dna-authentication]]
+=== DNA-based authentication
+
+DNA barcoding shall be performed when morphological identification is
+inconclusive or when verification of species identity is required for quality
+control purposes.
+
+==== ITS region as primary barcode
+
+The internal transcribed spacer (ITS) region of nuclear ribosomal DNA shall be
+used as the primary DNA barcode for fungal identification.
+
+NOTE: The ITS region is formally recognized as the universal DNA barcode for
+fungi by the Consortium for the Barcode of Life <<Schoch2012>>.
+
+==== Required elements for DNA barcoding
+
+DNA barcoding analysis shall include the following elements:
+
+a) Primer pair: ITS1/ITS4 (or equivalent universal fungal primers) <1>
+b) Reference database: UNITE (https://unite.ut.ee) <2>
+c) Sequence similarity threshold: ≥99% for species-level identification <3>
+d) Documentation: GenBank accession number for reference sequences
+
+<1> Universal primers such as ITS1 (5'-TCCGTAGGTGAACCTGCGG-3') and ITS4
+(5'-TCCTCCGCTTATTGATATGC-3') provide coverage for >99% of ascomycete and
+basidiomycete taxa <<Tooming2012>>.
+<2> UNITE is the primary reference database for fungal ITS sequences with
+curated species hypotheses <<Nilsson2019>>.
+<3> A threshold of 99% sequence similarity is suitable for distinguishing
+species in most fungal lineages using the entire ITS region <<Ritok2016>>.
+
+==== Quality control requirements
+
+DNA barcoding for quality control shall meet the following criteria:
+
+* DNA extraction: Use validated extraction methods yielding high-quality DNA
+  (A260/A280 ratio 1.8-2.0)
+* PCR amplification: Positive control (known species) and negative control
+  (no template) shall be included
+* Sequencing: Bidirectional sequencing with minimum 2x coverage
+* Data analysis: BLAST comparison against curated reference sequences
+* Reporting: Sequence identity percentage, alignment length, and E-value
+  shall be documented
+
+==== Species complexes
+
+For species within taxonomically complex groups (e.g., _Ganoderma lucidum_
+complex, _Cordyceps sinensis_ complex), ITS sequencing alone may be
+insufficient for definitive identification. In such cases, multilocus
+phylogenetic analysis using additional markers (e.g., EF1-α, RPB2, nLSU)
+shall be performed <<Zhou2015>>.
+
+[.source]
+<<Adotey2025>> (review of Ganoderma systematics and molecular identification)
+
 [[table-common-fungi]]
-.Common medicinal fungi: accepted names and synonyms
-[cols="40%,30%,30%"]
+.Common medicinal fungi: accepted names, synonyms, and key bioactive compounds
+[cols="25%,20%,20%,35%"]
 |===
-| Accepted name | Common synonyms | Common name
+| Accepted name | Common synonyms | Common name | Key bioactive compounds
 
-| Ganoderma lucidum
-| G. lucidum sensu stricto
+| Ganoderma lucidum (Curtis) P. Karst.
+| G. lingzhi, G. sichuanense
 | Reishi, Lingzhi
+| Triterpenes (ganoderic acids), β-glucans, polysaccharides
 
-| Lentinula edodes
+| Lentinula edodes (Berk.) Pegler
 | Lentinus edodes
 | Shiitake
+| Lentinan (β-glucan), eritadenine, ergosterol
 
-| Trametes versicolor
+| Trametes versicolor (L.) Lloyd
 | Coriolus versicolor, Polyporus versicolor
 | Turkey Tail, Yun Zhi
+| Polysaccharopeptide (PSP), polysaccharide-K (PSK)
 
+| Ophiocordyceps sinensis (Berk.) G.H. Sung et al.
 | Cordyceps sinensis
-| Ophiocordyceps sinensis
 | Caterpillar fungus, Yartsa Gunbu
+| Cordycepin, adenosine, polysaccharides
 
-| Inonotus obliquus
+| Inonotus obliquus (Ach. ex Pers.) Pilát
 | Fuscoporia obliqua
 | Chaga
+| Betulinic acid, inotodiol, polysaccharides, triterpenoids
 
-| Hericium erinaceus
+| Hericium erinaceus (Bull.) Pers.
 | Hydnum erinaceus
 | Lion's Mane, Yamabushitake
+| Hericenones, erinacines (neurotrophic compounds)
+|===
+
+NOTE: The taxonomic status of _Ganoderma lucidum_ remains complex; molecular
+studies indicate that the name has been applied to multiple distinct species.
+_The name "G. lingzhi" is commonly applied to cultivated Asian strains,
+while European "G. lucidum" represents a different taxon_ <<Zhou2015>>.
+For commercial products, DNA-based authentication is strongly recommended
+<<Adotey2025>>.
+
+[[table-bioactive-profiles]]
+.Bioactive compound profiles and therapeutic applications
+[cols="25%,35%,40%"]
+|===
+| Species | Primary bioactive compounds | Evidence-based applications
+
+| _Ganoderma lucidum_
+| Triterpenes (ganoderic acids A, B, C, D, H); β-(1→3)-D-glucans;
+polysaccharide-protein complexes
+| Immunomodulation, hepatoprotection, anticancer (adjuvant therapy);
+systematic reviews support immunomodulatory effects <<Wang2020>>
+
+| _Lentinula edodes_
+| Lentinan (β-(1→3)-D-glucan with β-(1→6) branching); eritadenine;
+ergosterol (provitamin D2)
+| Immunomodulation, cholesterol reduction; clinical evidence for
+adjuvant cancer therapy <<Chakraborty2023>>
+
+| _Trametes versicolor_
+| Polysaccharide-K (PSK), polysaccharopeptide (PSP); β-glucans
+| Adjuvant cancer therapy (breast, colorectal); immunomodulation;
+clinical trials demonstrate improved survival outcomes <<Fisher2023>>
+
+| _Ophiocordyceps sinensis_
+| Cordycepin (3'-deoxyadenosine); adenosine; polysaccharides;
+ergosterol
+| Renal function, exercise performance, respiratory function;
+limited clinical data due to rarity and cost <<Li2024>>
+
+| _Inonotus obliquus_
+| Betulinic acid, inotodiol, lanostane triterpenoids; polysaccharides;
+melanin complexes
+| Antioxidant, anti-inflammatory, hepatoprotection; preclinical
+evidence primarily <<Glamo2023>>
+
+| _Hericium erinaceus_
+| Hericenones (fruiting body), erinacines (mycelium); NGF-inducing
+compounds
+| Cognitive function, mood support; clinical trials show modest
+improvements in mild cognitive impairment <<Saitsu2023>>
 |===

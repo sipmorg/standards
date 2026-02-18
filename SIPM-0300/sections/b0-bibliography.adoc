@@ -2,19 +2,46 @@
 [bibliography]
 == Bibliography
 
-* [[[ICHQ2R1,ICH Q2(R1) Validation of Analytical Procedures: Text and
-  Methodology]]]
+* [[[ICHQ1A,ICH Q1 Stability Testing of Drug Substances and Drug Products]]],
+  International Council for Harmonisation, 2025. ICH/Q1EWG/2025
 
-* [[[FDAGuidance,FDA Guidance for Industry: Botanical Drug Development]]],
-  U.S. Food and Drug Administration, 2016
+* [[[ICHQ2R1,ICH Q2(R2) Validation of Analytical Procedures]]], International
+  Council for Harmonisation, 2023
 
-* [[[EMAGuidance,EMA Guideline on Quality of Herbal Medicinal Products]]],
-  European Medicines Agency
+* [[[ICHQ3D,ICH Q3D(R2) Guideline for Elemental Impurities]]], International
+  Council for Harmonisation, 2022
 
-* [[[AOAC,AOAC Official Methods of Analysis]]], Association of Official
-  Analytical Chemists
+* [[[FDABotanical,FDA Guidance for Industry: Botanical Drug Development]]],
+  U.S. Food and Drug Administration, Center for Drug Evaluation and Research,
+  2016. Revision 2
 
-* [[[ICHQ3D,ICH Q3D Guideline for Elemental Impurities]]]
+* [[[EMAHerbal,EMA Guideline on Quality of Herbal Medicinal Products]]],
+  European Medicines Agency, Committee on Herbal Medicinal Products (HMPC),
+  2011. EMA/CPMP/QWP/2819/00 Rev 2
+
+* [[[AOAC,AOAC Official Methods of Analysis (21st Edition)]]], Association of
+  Official Analytical Communities, Rockville, MD, 2019
 
 * [[[USP2232,USP General Chapter <2232> Elemental Contaminants in Dietary
-  Supplements]]]
+  Supplements]]], United States Pharmacopeial Convention, Rockville, MD
+
+* [[[USP561,USP General Chapter <561> Articles of Botanical Origin]]], United
+  States Pharmacopeial Convention, Rockville, MD
+
+* [[[Toreti2022,Toreti A. et al.]]], Quality control of herbal medicines: From
+  traditional techniques to advanced analytical methods. _Phytomedicine_ 2021,
+  *85* p. 153525. doi:10.1016/j.phymed.2021.153525
+
+* [[[Shawky2022,Shawky L. et al.]]], Advances in fingerprint analysis for
+  standardization and quality control of herbal medicines. _Front. Pharmacol._
+  2022, *13* p. 9201489. doi:10.3389/fphar.2022.9201489
+
+* [[[Pauzi2022,Pauzi A.H. et al.]]], Current authentication methods of herbs
+  and herbal products: A systematic review. _Food Res._ 2022, *6*(4) pp.
+  276-286. doi:10.26656/fr.2017.6(4).468
+
+* [[[EP11th,European Pharmacopoeia 11th Edition]]], Council of Europe,
+  Strasbourg, 2023. ISBN 9789287192006
+
+* [[[WHOQCM,WHO Quality Control Methods for Herbal Materials]]], World Health
+  Organization, Geneva, 2011. ISBN 9789241501829

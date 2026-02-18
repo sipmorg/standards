@@ -1,5 +1,6 @@
-# Build artifacts
+# Build artifacts (except root index.html for Vite)
 *.html
+!index.html
 *.pdf
 *.doc
 *.docx

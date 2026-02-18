@@ -63,20 +63,71 @@ including:
 
 ==== Ganoderma species
 
-Due to taxonomic complexity within the Ganoderma genus, identification shall
+Due to taxonomic complexity within the _Ganoderma_ genus, identification shall
 include:
 
 * Macroscopic characteristics of the fruiting body
 * Microscopic characteristics of spores and hyphae
 * Geographic origin information
+* DNA barcoding using ITS region (mandatory for commercial products)
 
-==== Cordyceps species
+NOTE: The _Ganoderma lucidum_ species complex contains multiple cryptic species.
+_Molecular identification is essential as morphological characteristics overlap
+significantly between species_ <<Zhou2015>>. Asian cultivated "Lingzhi" is
+typically _G. lingzhi_ (syn. _G. sichuanense_), not European _G. lucidum_
+sensu stricto <<Du2023>>.
 
-Cordyceps products shall specify:
+==== Ophiocordyceps/Cordyceps species
 
-* Species identity (C. sinensis, C. militaris, or other)
-* Whether the product contains the natural complex (fungus + host) or
-  cultured mycelium
+_Ophiocordyceps sinensis_ (formerly _Cordyceps sinensis_) products shall
+specify:
 
-NOTE: C. sinensis is endangered in the wild; cultured alternatives are
-commonly used.
+* Species identity (_O. sinensis_, _C. militaris_, or other)
+* Whether the product contains the natural complex (fungus + host) or cultured
+  mycelium
+* Authentication method used (DNA barcoding recommended)
+
+NOTE: _O. sinensis_ is endangered in the wild and subject to CITES regulations
+in some jurisdictions. Cultured alternatives (_C. militaris_) are commonly
+used. Adulteration with other species is a significant quality concern;
+HPLC-MS/MS methods have been developed for authentication <<Li2024>>.
+
+==== Trametes/Coriolus species
+
+_Products derived from_ Trametes versicolor _(syn._ Coriolus versicolor _) shall
+specify:_
+
+* Bioactive compound type: PSK (polysaccharide-K), PSP (polysaccharopeptide), or
+  crude extract
+* β-glucan content (minimum percentage dry weight)
+* Strain information if applicable
+
+NOTE: PSK (Krestin) is approved as an adjuvant cancer therapy in Japan, with
+clinical evidence from randomized controlled trials demonstrating improved
+survival in colorectal and breast cancer patients <<Fisher2023>>.
+
+==== Hericium species
+
+_Products derived from_ Hericium erinaceus _shall specify:_
+
+* Source material: fruiting body, mycelium, or combined
+* Preparation method: hot water extraction, ethanol extraction, or other
+* Erinacine content (for mycelium-based products) or hericenone content (for
+  fruiting body products)
+
+NOTE: Erinacines (from mycelium) and hericenones (from fruiting body) are
+the primary neurotrophic compounds. These compounds promote nerve growth factor
+(NGF) synthesis through different mechanisms <<Contato2025>>.
+
+==== Inonotus species
+
+_Products derived from_ Inonotus obliquus _(Chaga) shall specify:_
+
+* Source: wild-harvested or cultivated
+* Host tree species (wild-harvested): birch (_Betula_ spp.) is the primary host
+* Extraction method: hot water, ethanol, or dual extraction
+* Betulinic acid and inotodiol content where applicable
+
+NOTE: Chaga's bioactive profile varies significantly with host tree species
+and extraction method. Betulin and betulinic acid are derived primarily from
+birch bark and accumulate in the fungal sclerotium <<Glamo2022023>>.

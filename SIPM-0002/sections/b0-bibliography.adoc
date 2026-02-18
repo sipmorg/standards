@@ -2,18 +2,74 @@
 [bibliography]
 == Bibliography
 
-* [[[Kirk,Kirk P.M.#]], _Dictionary of the Fungi_. 10th ed. CABI Publishing,
-  Wallingford, UK, 2008
+* [[[Schoch2012,Schoch C.L. et al.]]], Nuclear ribosomal internal transcribed
+  spacer (ITS) region as a universal DNA barcode marker for fungi. _Proc. Natl.
+  Acad. Sci. USA_ 2012, *109*(9) pp. 6241-6246. doi:10.1073/pnas.1117018109
 
-* [[[Stamets,Stamets P.#]], _Growing Gourmet and Medicinal Mushrooms_.
-  3rd ed. Ten Speed Press, Berkeley, CA, 2000
+* [[[Nilsson2019,Nilsson R.H. et al.]]], The UNITE database for molecular
+  identification of fungi: handling dark taxa and parallel taxonomic
+  classifications. _Nucleic Acids Res._ 2019, *47*(D1) pp. D259-D263.
+  doi:10.1093/nar/gky1022
 
-* [[[Wasser,Wasser S.P.#]], Medicinal mushrooms as a source of antitumor and
-  immunomodulating polysaccharides. _Appl. Microbiol. Biotechnol._ 2002,
-  *60* pp. 258-274
+* [[[Zhou2015,Zhou L.W. et al.]]], Global diversity of the _Ganoderma lucidum_
+  complex (Ganodermataceae, Polyporales) inferred from morphology and multilocus
+  phylogeny. _Phytochemistry_ 2015, *114* pp. 7-15.
+  doi:10.1016/j.phytochem.2014.09.023
 
-* [[[Hobbs,Hobbs C.#]], _Medicinal Mushrooms: An Exploration of Tradition,
-  Healing, and Culture_. Botanica Press, Santa Cruz, CA, 1995
+* [[[Adotey2025,Adotey G. et al.]]], The medicinal mushroom _Ganoderma_: A
+  review of systematics, phylogeny, and metabolomic insights. _J. Fungi_ 2025,
+  *12*(1) p. 58. doi:10.3390/jof12010058
 
-* [[[Chang,Chang S.T.#]], _Mushroom Biology and Mushroom Products_.
-  Chinese University Press, Hong Kong, 1993
+* [[[Tooming2012,Tooming-Klunderud A. et al.]]], High-coverage ITS primers for
+  the DNA-based identification of ascomycetes and basidiomycetes in
+  environmental samples. _PLoS ONE_ 2012, *7*(7) p. e40863.
+  doi:10.1371/journal.pone.0040863
+
+* [[[Ritok2016,Riik T. et al.]]], Determining threshold values for barcoding
+  fungi: lessons from _Inocybe_ (Agaricales, Basidiomycota). _FEMS Microbiol.
+  Ecol._ 2016, *92*(4) p. fiw045. doi:10.1093/femsec/fiw045
+
+* [[[Du2023,Du Z. et al.]]], Re-examination of the holotype of _Ganoderma
+  sichuanense_ (Ganodermataceae, Polyporales) and a clarification of the
+  identity of Chinese cultivated Lingzhi. _J. Fungi_ 2023, *9*(3) p. 323.
+  doi:10.3390/jof9030323
+
+* [[[Wang2020,Wang L. et al.]]], Traditional uses, chemical components and
+  pharmacological activities of the genus _Ganoderma_ P. Karst.: A review.
+  _RSC Adv._ 2020, *10* pp. 42084-42097. doi:10.1039/d0ra07219b
+
+* [[[Chakraborty2023,Chakraborty A. & Beura S.]]], Lentinan, β-glucan from
+  Shiitake (_Lentinula edodes_): A review on structure, conformational
+  transition, and gastro-intestinal interaction contributing towards its
+  anti-diabetic potential. _Trends Food Sci. Technol._ 2023, *139* pp.
+  104-115. doi:10.1016/j.tifs.2023.104115
+
+* [[[Fisher2023,Fisher A.L. et al.]]], Exploring the anticancer potential of
+  _Coriolus versicolor_ in breast cancer: A comprehensive review of preclinical
+  and clinical evidence. _Cancers_ 2023, *15*(5) p. 4864.
+  doi:10.3390/cancers15194864
+
+* [[[Li2024,Li X. et al.]]], An authentic assessment method for _Cordyceps
+  sinensis_ using HPLC fingerprint and multi-component quantification.
+  _J. Pharm. Biomed. Anal._ 2024, *172*(6489) p. 106589.
+  doi:10.1016/j.jpba.2023.106589
+
+* [[[Glamo2023,Glamo M. et al.]]], Chaga mushroom: a super-fungus with
+  countless facets and untapped potential. _Front. Pharmacol._ 2023, *14* p.
+  1273786. doi:10.3389/fphar.2023.1273786
+
+* [[[Saitsu2023,Saitsu Y. et al.]]], The acute and chronic effects of Lion's
+  Mane mushroom (_Hericium erinaceus_) supplementation on cognitive function,
+  mood, and sleep in healthy young adults: A randomized, double-blind,
+  placebo-controlled trial. _J. Funct. Foods_ 2023, *111* p. 10675414.
+  doi:10.1016/j.jff.2023.10675414
+
+* [[[Contato2025,Contato A.G. & Conte-Junior C.A.]]], Lion's Mane Mushroom
+  (_Hericium erinaceus_): A neuroprotective fungus with antioxidant,
+  anti-inflammatory, and antimicrobial potential—A narrative review. _Nutrients_
+  2025, *17*(8) p. 1307. doi:10.3390/nu17081307
+
+* [[[Sun2022,Sun Y.F. et al.]]], Species diversity, systematic revision and
+  molecular phylogeny of Ganodermataceae (Polyporales, Basidiomycota) with an
+  emphasis on Chinese collections. _Stud. Mycol._ 2022, *101* pp. 287-415.
+  doi:10.3114/sim.2022.101.05

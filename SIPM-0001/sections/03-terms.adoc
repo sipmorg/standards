@@ -312,3 +312,75 @@ or new adverse reactions.
 | Stability marker
 | Compound that degrades in a predictable manner and indicates product stability
 |===
+
+[[sec-functional-terms]]
+=== Functional classification terms
+
+==== adaptogen
+
+natural compound or plant extract that increases the adaptability, resilience,
+and survival of organisms to stress through non-specific activation of adaptive
+mechanisms
+
+NOTE 1: Adaptogens exhibit a normalizing effect independent of the nature of
+the pathological state (stres-protective activity).
+
+NOTE 2: Key mechanisms include modulation of the hypothalamic-pituitary-adrenal
+(HPA) axis, regulation of cortisol release, and enhancement of cellular stress
+resistance via heat shock proteins and neuropeptide Y <<Panossian2021>>.
+
+NOTE 3: Plant-derived adaptogens include _Eleutherococcus senticosus_
+(Eleuthero), _Withania somnifera_ (Ashwagandha), _Rhodiola rosea_ (Rhodiola),
+and _Panax ginseng_ (Ginseng).
+
+[.source]
+<<Panossian2021>> (evolution of the adaptogenic concept from traditional use to
+medical applications)
+
+==== nootropic
+alt:[cognitive enhancer]
+
+substance that improves cognitive function (memory, attention, learning, or
+executive function) without significant sedation or stimulation
+
+NOTE 1: The term "nootropic" was coined by Giurgea in 1972 and originally
+required the substance to enhance learning and memory, protect against
+disruptive agents, have minimal side effects, and increase cortical control.
+
+NOTE 2: Plant-derived nootropics include _Bacopa monnieri_ (bacosides),
+_Ginkgo biloba_ (flavonoid glycosides, terpene lactones), _Panax ginseng_
+(ginsenosides), and _Coffea arabica_ (caffeine) <<Nieto2022>>.
+
+NOTE 3: Systematic reviews indicate that _Ginkgo biloba_ is most relevant for
+perceptual and motor functions, while _Bacopa monnieri_ improves language,
+learning, and memory <<Garcia2022>>.
+
+[.source]
+<<Nieto2022>> (plant-derived nootropics and human cognition: systematic review)
+
+==== immunomodulator
+
+substance that can modify or regulate one or more immune functions
+
+NOTE: Immunomodulators may be immunostimulatory (enhancing immune response) or
+immunosuppressive (reducing immune response). Many phytomedicines exhibit
+immunomodulatory activity, including _Echinacea_ spp., _Astragalus
+membranaceus_, and medicinal fungi such as _Ganoderma lucidum_.
+
+==== antioxidant
+
+substance that inhibits oxidation, neutralizes free radicals, or chelates
+metal ions that catalyze oxidative reactions
+
+NOTE: Many phytomedicines contain antioxidant compounds including polyphenols,
+flavonoids, carotenoids, and vitamins C and E. Antioxidant activity is often
+measured using ORAC, FRAP, or DPPH assays.
+
+==== anti-inflammatory
+
+substance that reduces inflammation by inhibiting inflammatory mediators,
+cytokines, or enzymes involved in the inflammatory cascade
+
+NOTE: Plant-derived anti-inflammatory compounds include curcuminoids
+(_Curcuma longa_), boswellic acids (_Boswellia serrata_), and omega-3 fatty
+acids.

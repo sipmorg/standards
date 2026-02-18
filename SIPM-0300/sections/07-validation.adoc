@@ -44,3 +44,146 @@ Methods shall be revalidated when:
 * Changes are made to the analytical procedure
 * The method is transferred to another laboratory
 * Results indicate the method is no longer performing adequately
+
+[[sec-stability-testing]]
+=== Stability testing
+
+Stability testing shall be conducted to establish shelf-life specifications
+for botanical materials and finished products.
+
+NOTE: Stability testing for botanical products shall follow ICH Q1 guidelines
+adapted for the unique characteristics of plant-based materials <<ICHQ1A>>.
+
+==== Storage conditions
+
+Long-term and accelerated stability studies shall be conducted under the
+following conditions:
+
+[[table-stability-conditions]]
+.Stability testing storage conditions
+[cols="25%,25%,25%,25%"]
+|===
+| Study type | Temperature | Humidity | Duration
+
+| Long-term (Zone I/II)
+| 25 deg C ± 2 deg C
+| 60% RH ± 5% RH
+| 24-36 months
+
+| Long-term (Zone III/IVa)
+| 30 deg C ± 2 deg C
+| 65% RH ± 5% RH
+| 24-36 months
+
+| Long-term (Zone IVb)
+| 30 deg C ± 2 deg C
+| 75% RH ± 5% RH
+| 24-36 months
+
+| Accelerated
+| 40 deg C ± 2 deg C
+| 75% RH ± 5% RH
+| 6 months
+
+| Intermediate (if accelerated fails)
+| 30 deg C ± 2 deg C
+| 65% RH ± 5% RH
+| 12 months
+|===
+
+==== Testing intervals
+
+Samples shall be tested at the following intervals:
+
+* Long-term studies: 0, 3, 6, 9, 12, 18, 24, and 36 months
+* Accelerated studies: 0, 3, and 6 months
+* Additional timepoints as needed to characterize degradation profile
+
+==== Stability-indicating methods
+
+Stability-indicating methods shall:
+
+* Demonstrate specificity for marker compounds and potential degradation
+  products
+* Detect changes in active constituent concentrations
+* Quantify degradation products when applicable
+* Be validated according to ICH Q2(R1) requirements
+
+[[table-stability-indicators]]
+.Stability indicators for botanical products
+[cols="40%,60%"]
+|===
+| Parameter | Assessment method
+
+| Marker compound content
+| HPLC, UPLC quantification of characteristic compounds
+
+| Degradation products
+| HPLC-DAD, LC-MS detection of degradation markers
+
+| Physical appearance
+| Color, odor, texture assessment; spectrophotometric analysis
+
+| Moisture content
+| Loss on drying (LOD), Karl Fischer titration
+
+| Microbiological quality
+| Total aerobic count, yeast/mold, specified pathogens
+
+| Heavy metals
+| ICP-MS, AAS for elemental contaminants
+|===
+
+==== Shelf-life extrapolation
+
+Shelf-life may be extrapolated from accelerated data according to the
+following principles:
+
+* If accelerated data show no significant change: Shelf-life may be
+  extrapolated to twice the accelerated period, not exceeding 36 months
+* If significant change occurs at accelerated conditions: Intermediate
+  conditions data shall be used; shelf-life extrapolation limited
+* Statistical analysis (e.g., linear regression at 95% confidence) shall
+  support shelf-life claims
+
+[.source]
+<<ICHQ1A>> (ICH stability testing guidelines)
+
+[[sec-method-transfer]]
+=== Method transfer
+
+When analytical methods are transferred between laboratories, the receiving
+laboratory shall demonstrate equivalence through method transfer studies.
+
+==== Transfer approaches
+
+The following method transfer approaches are acceptable:
+
+[[table-method-transfer]]
+.Method transfer acceptance criteria
+[cols="40%,60%"]
+|===
+| Parameter | Acceptance criteria
+
+| Assay (marker compounds)
+| Results within ±2% of originating laboratory mean; or combined RSD ≤2%
+
+| Related substances
+| Results within ±10% relative or ±0.1% absolute (whichever is greater)
+
+| Dissolution
+| Results within ±5% of originating laboratory mean at each timepoint
+
+| Identification tests
+| 100% agreement in qualitative results
+|===
+
+==== Transfer protocol requirements
+
+Method transfer protocols shall include:
+
+* Description of the method and critical parameters
+* Reference materials and samples to be analyzed
+* Number of replicates and analysts
+* Acceptance criteria with statistical justification
+* Documentation requirements

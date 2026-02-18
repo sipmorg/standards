@@ -2,17 +2,76 @@
 [bibliography]
 == Bibliography
 
-* [[[FAOGAP,FAO Good Agricultural Practices]]], Food and Agriculture Organization
-  of the United Nations, Rome
+* [[[WHOGACP,WHO Guidelines on Good Agricultural and Collection Practices (GACP) for Medicinal Plants]]],
+  World Health Organization, Geneva, 2003. ISBN 9241546271
 
-* [[[WHOQCM,WHO Quality Control Methods for Medicinal Plant Materials]]], World
-  Health Organization, Geneva, 1998
+* [[[WHO2017,WHO Guidelines for Assessing Quality of Herbal Medicines with Reference to Contaminants and Residues]]],
+  World Health Organization, Geneva, 2017. ISBN 9789241550054
 
-* [[[AHPAGAP,AHPA Good Agricultural Practices]]], American Herbal Products
-  Association, Silver Spring, MD
+* [[[EP11th,European Pharmacopoeia 11th Edition]]], Council of Europe,
+  Strasbourg, 2023. ISBN 9789287192006
 
-* [[[Craker,Craker L.E.#]], _Herbs, Botanicals and Teas_. Haworth Press,
-  Binghamton, NY, 2000
+* [[[IP2022,Indian Pharmacopoeia 2022]]], Indian Pharmacopoeia Commission,
+  Government of India, Ghaziabad, 2022
 
-* [[[Simon,Simon J.E.#]], _Herbs: An Indexed Bibliography, 1971-1980_.
-  Elsevier, Amsterdam, 1984
+* [[[USDA2024,NRCS Plant Guide: Echinacea purpurea]]], United States Department
+  of Agriculture, Natural Resources Conservation Service, 2024
+
+* [[[BIN2020,BIN (2020)]]], Improving growth properties and phytochemical
+  compounds of _Echinacea purpurea_ (L.) medicinal plant using novel nitrogen
+  slow release fertilizer. _Sci. Rep._ 2020, *10* p. 70949.
+  doi:10.1038/s41598-020-70949-4
+
+* [[[Moghith2024,Moghith W. et al.]]], Plant growth, productivity and chemical
+  components of _Echinacea purpurea_ under different cultivation methods.
+  _World Appl. Sci. J._ 2024, *38* pp. 45-58.
+
+* [[[Stuart2004,Stuart D.L. & Wills R.B.H.]]], Effect of drying temperature on
+  alkylamides and cichoric acid concentrations of _Echinacea purpurea_.
+  _J. Food Compos. Anal._ 2004, *17*(2) pp. 65-71.
+  doi:10.1016/j.jfca.2003.08.009
+
+* [[[Kumar2025,Kumar P. et al.]]], Influence of environmental conditions on
+  yield and withanolide content of _Withania somnifera_: A comprehensive
+  review. _Nat. Prod. Res._ 2025, *39*(5) pp. 1456-1472.
+  doi:10.1080/14786419.2025.2566465
+
+* [[[CIMAP2024,CIMAP (2024)]]], Scientific Cultivation of Ashwagandha.
+  Central Institute of Medicinal and Aromatic Plants, Lucknow, India, 2024
+
+* [[[Kwiecien2026,Kwiecien I. et al.]]], The temperature influence on the
+  energy and germination capacity of seeds and the effect of the substrate
+  on the yield of _Withania somnifera_ in the conditions of south-eastern
+  Poland. _Acta Sci. Pol. Hortorum Cultus_ 2026, *25*(1) pp. 45-56.
+
+* [[[Kim2023,Kim Y.J. et al.]]], The current research progress of ginseng
+  species: The cultivation, processing, and phytochemistry. _Eng. Life Sci._
+  2023, *23*(8) p. 2216483. doi:10.1002/elsc.202300483
+
+* [[[Auburn2020,Auburn University]]], American Ginseng Cultivation & Growing
+  Guide. United Plant Savers, 2020
+
+* [[[Kwiecien2021,Kwiecien I. et al.]]], Cultivation of _Hypericum perforatum_
+  (St. John's Wort) and biotechnological approaches for improvement of plant
+  raw material quality. _Front. Plant Sci._ 2021, *12* p. 710367.
+  doi:10.3389/fpls.2021.710367
+
+* [[[Frontiers2022,Liu X. et al.]]], Low temperature modifies seedling leaf
+  anatomy and gene expression of cold-responsive genes in _Hypericum
+  perforatum_. _Front. Plant Sci._ 2022, *13* p. 1020857.
+  doi:10.3389/fpls.2022.1020857
+
+* [[[Karkanis2011,Karkanis A. et al.]]], Cultivation of milk thistle
+  (_Silybum marianum_ L. Gaertn.), a medicinal weed. _Ind. Crops Prod._
+  2011, *34*(1) pp. 825-830. doi:10.1016/j.indcrop.2011.04.001
+
+* [[[Marceddu2022,Marceddu R. et al.]]], Milk thistle (_Silybum marianum_ L.)
+  as a novel multipurpose crop: A review. _Agronomy_ 2022, *12*(3) p. 729.
+  doi:10.3390/agronomy12030729
+
+* [[[EMA2006,EMA Guideline on Good Agricultural and Collection Practice (GACP)
+  for Starting Materials of Herbal Origin]]], European Medicines Agency,
+  London, 2006. EMEA/HMPC/246816/2005
+
+* [[[FAOGAP,FAO Good Agricultural Practices]]], Food and Agriculture
+  Organization of the United Nations, Rome

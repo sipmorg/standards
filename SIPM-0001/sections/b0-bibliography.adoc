@@ -2,36 +2,55 @@
 [bibliography]
 == Bibliography
 
-* [[[ISO3696,ISO 3696:1987]]], Water for analytical laboratory use -- Specification
+* [[[ISO3696,ISO 3696:2022]]], Water for analytical laboratory use -- Specification
   and test methods
 
-* [[[ISO5725-1,ISO 5725-1:1994]]], Accuracy (trueness and precision) of
+* [[[ISO5725-1,ISO 5725-1:2023]]], Accuracy (trueness and precision) of
   measurement methods and results -- Part 1: General principles and definitions
 
-* [[[ISO5725-2,ISO 5725-2:1994]]], Accuracy (trueness and precision) of
-  measurement methods and results -- Part 2: Basic method for the determination
-  of repeatability and reproducibility of a standard measurement method
+* [[[ISO9000,ISO 9000:2015]]], Quality management systems -- Fundamentals and
+  vocabulary
 
-* [[[WHOQCM,WHO Quality Control Methods for Medicinal Plant Materials]]], World
-  Health Organization, Geneva, 1998
+* [[[WHOQCM,WHO Quality Control Methods for Herbal Materials]]], World Health
+  Organization, Geneva, 2011. ISBN 9789241501829
+
+* [[[WHOGACP,WHO Guidelines on Good Agricultural and Collection Practices (GACP)
+  for Medicinal Plants]]], World Health Organization, Geneva, 2003.
+  ISBN 9241546271
 
 * [[[WHOPHARM,WHO Monographs on Selected Medicinal Plants]]], World Health
   Organization, Geneva, Vols. 1-4
 
 * [[[ESCP,European Scientific Cooperative on Phytotherapy (ESCOP) Monographs]]],
-  ESCOP, Exeter, UK
+  ESCOP, Exeter, UK, 2nd Edition, 2009
 
-* [[[BMABlumenthal,Blumenthal M.#]], _The ABC Clinical Guide to Herbs_.
-  American Botanical Council, Austin, TX, 2003
+* [[[EP11th,European Pharmacopoeia 11th Edition]]], Council of Europe,
+  Strasbourg, 2023. ISBN 9789287192006
 
-* [[[Bruneton,Bruneton J.#]], _Pharmacognosy, Phytochemistry, Medicinal Plants_.
-  2nd ed. Lavoisier Publishing, Paris, 1999
+* [[[USPNF,United States Pharmacopeia - National Formulary (USP 47-NF 42)]]],
+  United States Pharmacopeial Convention, Rockville, MD, 2024
 
-* [[[Evans,Evans W.C.#]], _Trease and Evans' Pharmacognosy_. 15th ed.
-  Saunders, Edinburgh, 2002
+* [[[FDABotanical,FDA Guidance for Industry: Botanical Drug Development]]],
+  U.S. Food and Drug Administration, Center for Drug Evaluation and Research,
+  2016. Revision 2
 
-* [[[Heinrich,Heinrich M.#]], _Fundamentals of Pharmacognosy and Phytotherapy_.
-  2nd ed. Churchill Livingstone, Edinburgh, 2012
+* [[[Panossian2021,Panossian A. & Efferth T.]]], Evolution of the adaptogenic
+  concept from traditional use to medical applications: Molecular mechanisms
+  of action. _Phytomedicine_ 2021, *85* p. 153525.
+  doi:10.1016/j.phymed.2020.153525
 
-* [[[VanBreemen,Van Breemen R.B.#]], Developing standards for validating
-  botanical dietary supplements. _J. AOAC Int._ 2006, *89* (1) pp. 1-4
+* [[[Nieto2022,Nieto J.A. et al.]]], Plant-derived nootropics and human
+  cognition: A systematic review. _Crit. Rev. Food Sci. Nutr._ 2022, *62*(25)
+  pp. 6957-6984. doi:10.1080/10408398.2021.2021137
+
+* [[[Garcia2022,Garcia A.M. et al.]]], Effects of natural extracts in cognitive
+  function of healthy adults. _Front. Pharmacol._ 2025, *16* p. 1573034.
+  doi:10.3389/fphar.2025.1573034
+
+* [[[Heinrich2024,Heinrich M. et al.]]], _Fundamentals of Pharmacognosy and
+  Phytotherapy_. 4th ed. Churchill Livingstone, Edinburgh, 2024.
+  ISBN 9780702082178
+
+* [[[VanBreemen2018,Van Breemen R.B. et al.]]], The value and challenges of
+  botanical reference materials. _J. AOAC Int._ 2018, *101*(1) pp. 1-5.
+  doi:10.5740/jaoacint.17-0398
