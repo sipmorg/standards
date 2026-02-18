@@ -7,6 +7,17 @@
 !schemas/*.xml
 *.rxl
 
+# Node/Vite build
+node_modules/
+dist/
+.npm
+
+# Generated standards JSON
+src/content/standards/*.json
+public/content/standards/*.json
+!src/content/standards/.gitkeep
+!public/content/standards/.gitkeep
+
 # Editor files
 *.swp
 *.swo
