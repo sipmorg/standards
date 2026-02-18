@@ -42,24 +42,15 @@
         </header>
 
         <div class="standard-layout">
-          <aside v-if="standard.toc && standard.toc.length > 0" class="standard-toc glass">
-            <h3>Contents</h3>
-            <nav>
-              <ul class="toc-list">
-                <li v-for="section in standard.toc" :key="section.id">
-                  <a :href="`#${section.id}`">{{ section.title }}</a>
-                  <ul v-if="section.children && section.children.length > 0" class="toc-sublist">
-                    <li v-for="child in section.children" :key="child.id">
-                      <a :href="`#${child.id}`">{{ child.title }}</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-          </aside>
-
           <div class="standard-content" v-html="standard.html"></div>
         </div>
+
+        <!-- TOC positioned via CSS based on viewport -->
+        <TableOfContents
+          v-if="standard.toc && standard.toc.length > 0"
+          :sections="standard.toc"
+          class="standard-toc-wrapper"
+        />
 
         <footer class="standard-footer">
           <div class="footer-actions">
@@ -88,6 +79,7 @@ import { useRoute } from 'vue-router'
 import TheBreadcrumbs from '@/components/layout/TheBreadcrumbs.vue'
 import Badge from '@/components/ui/Badge.vue'
 import GradientButton from '@/components/ui/GradientButton.vue'
+import TableOfContents from '@/components/navigation/TableOfContents.vue'
 import { useSeo } from '@/composables/useSeo.js'
 import { useStandard } from '@/composables/useStandard.js'
 
@@ -233,61 +225,29 @@ useSeo({
 
 .standard-layout {
   display: grid;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 1fr;
   gap: var(--spacing-xl);
-}
-
-.standard-toc {
-  padding: var(--spacing-lg);
-  height: fit-content;
-  position: sticky;
-  top: var(--spacing-xl);
-}
-
-.standard-toc h3 {
-  font-family: var(--font-sans);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-text-light);
-  margin: 0 0 var(--spacing-md);
-}
-
-.toc-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.toc-list li {
-  margin-bottom: var(--spacing-xs);
-}
-
-.toc-list a {
-  font-size: var(--font-size-sm);
-  color: var(--color-text);
-  text-decoration: none;
-  transition: color var(--transition-fast);
-}
-
-.toc-list a:hover {
-  color: var(--color-primary);
-}
-
-.toc-sublist {
-  list-style: none;
-  padding-left: var(--spacing-md);
-  margin-top: var(--spacing-xs);
-}
-
-.toc-sublist a {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-light);
 }
 
 .standard-content {
   line-height: var(--line-height-relaxed);
+  min-width: 0; /* Prevent overflow */
+}
+
+/* Desktop: Position TOC as sidebar */
+@media (min-width: 1025px) {
+  .standard-page :deep(.standard-toc-wrapper) {
+    position: fixed;
+    top: calc(var(--header-height) + var(--spacing-xl));
+    left: max(calc((100vw - 1200px) / 2 + var(--spacing-lg)), var(--spacing-lg));
+    width: 250px;
+    max-height: calc(100vh - var(--header-height) - var(--spacing-2xl));
+    overflow-y: auto;
+  }
+
+  .standard-layout {
+    margin-left: calc(250px + var(--spacing-xl));
+  }
 }
 
 .standard-footer {
@@ -302,13 +262,8 @@ useSeo({
 }
 
 @media (max-width: 1024px) {
-  .standard-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .standard-toc {
-    position: static;
-    order: -1;
+  .standard-title {
+    font-size: var(--font-size-2xl);
   }
 }
 
@@ -316,10 +271,15 @@ useSeo({
   .standard-meta {
     flex-direction: column;
     gap: var(--spacing-md);
+    padding: var(--spacing-md);
   }
 
   .footer-actions {
     flex-direction: column;
+  }
+
+  .standard-title {
+    font-size: var(--font-size-xl);
   }
 }
 </style>
@@ -443,5 +403,44 @@ useSeo({
 
 .standard-content #toc {
   display: none;
+}
+
+/* Mobile fixes for content */
+@media (max-width: 768px) {
+  .standard-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .standard-content pre {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: var(--font-size-xs);
+  }
+
+  .standard-content ul,
+  .standard-content ol {
+    padding-left: var(--spacing-lg);
+  }
+
+  .standard-content h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  .standard-content h2 {
+    font-size: var(--font-size-lg);
+  }
+
+  .standard-content h3 {
+    font-size: var(--font-size-base);
+  }
+
+  .standard-content img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 </style>

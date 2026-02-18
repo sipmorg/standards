@@ -12,6 +12,7 @@
   "dependencies": {
     "@asciidoctor/core": "^3.0.4",
     "@unhead/vue": "^2.1.4",
+    "minisearch": "^7.1.2",
     "vite-ssg": "^28.3.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"

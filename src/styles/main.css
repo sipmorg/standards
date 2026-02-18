@@ -214,4 +214,8 @@ a:hover {
   .container {
     padding: 0 var(--spacing-md);
   }
+
+  .container-narrow {
+    padding: 0 var(--spacing-md);
+  }
 }

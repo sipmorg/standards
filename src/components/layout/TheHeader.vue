@@ -1,5 +1,5 @@
 <template>
-  <header class="header" :class="{ 'header-scrolled': isScrolled }">
+  <header class="header" :class="{ 'header-scrolled': isScrolled, 'header-mobile-open': mobileNavOpen }">
     <div class="header-container container">
       <!-- Logo - Links to main site -->
       <a href="/" class="header-logo">
@@ -9,6 +9,9 @@
           <span class="logo-full">Standards</span>
         </div>
       </a>
+
+      <!-- Search Component -->
+      <SearchComponent class="header-search" />
 
       <!-- Desktop Navigation -->
       <nav class="header-nav" :class="{ 'nav-open': mobileNavOpen }">
@@ -31,7 +34,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, watch } from 'vue'
+import SearchComponent from '@/components/search/SearchComponent.vue'
 
 const isScrolled = ref(false)
 const mobileNavOpen = ref(false)
@@ -48,6 +52,15 @@ const closeMobileNav = () => {
   mobileNavOpen.value = false
 }
 
+// Lock body scroll when mobile nav is open
+watch(mobileNavOpen, (isOpen) => {
+  if (isOpen) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = ''
+  }
+})
+
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
   handleScroll()
@@ -55,6 +68,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
+  document.body.style.overflow = ''
 })
 </script>
 
@@ -73,6 +87,11 @@ onUnmounted(() => {
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+  box-shadow: var(--shadow-md);
+}
+
+.header-mobile-open {
+  background: var(--color-surface);
   box-shadow: var(--shadow-md);
 }
 
@@ -118,6 +137,12 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: var(--spacing-lg);
+}
+
+.header-search {
+  flex: 1;
+  max-width: 360px;
+  margin: 0 var(--spacing-xl);
 }
 
 .nav-link {
@@ -212,6 +237,11 @@ onUnmounted(() => {
 }
 
 @media (max-width: 1024px) {
+  .header-search {
+    max-width: none;
+    margin: 0 var(--spacing-md);
+  }
+
   .mobile-toggle {
     display: flex;
     align-items: center;
@@ -224,15 +254,15 @@ onUnmounted(() => {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.98);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: var(--color-surface);
     flex-direction: column;
     align-items: stretch;
     padding: var(--spacing-xl);
     gap: 0;
     transform: translateX(100%);
     transition: transform var(--transition-normal);
+    z-index: 99;
+    overflow-y: auto;
   }
 
   .nav-open {
